@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Varna Tour Guide App</string>
+    
+    <string-array name="cites">
+        <item>Yo-Ho-Hostel</item>
+        <item>Hostel Del Mar</item>
+        <item>X-Hostel</item>
+        <item>Avocado Hostel</item>
+    </string-array>
+    <string name="list_item_icon">list item icon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_accommodation">Sleep</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_culture">Culture</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_fun">Fun</string>
+    <string name="avatar">avatar</string>
+    <string name="yo_ho_hostel">Yo-Ho-Hostel</string>
+    <string name="yoho_address">23, \"Russe\" Str.\nwww.yohohostel.com</string>
+    <string name="yoho_description">Yo-Ho-Hostel - most popular place in the heart of Varna ! Hostel for backpackers, explorers, musicians and artists ! OPEN ALL YEAR ROUND AND 24/7 !
+        Yo-Ho-Hostel - 12th Years we offer you the BEST PRICE in Varna ! Come, check and stay longer than you expect!
+        Most central, most friendly, most funny …
+
+        Top rated hostel in Varna since 2007 from www.hostelworld.com! Sleep Easy !
+        Best recommended hostel in Varna from \'Lonely Planet\' Guide Book 2008, 2009 ,2011 and 2015 !
+        The only hostel in Varna recommended from \'Le Guide du Routard\' from 2008 till 2016 !
+        Where are we on the map?
+        Walking distance from Yo-Ho-Hostel you can find:
+        -Tourist information center – 1 minute walk
+        -Cathedral church – 2 minutes walk
+        -Theater and Opera – 2 minutes walk
+        -Pedestrian street – 2 minutes walk
+        -Railway station – 8 minutes walk
+        -Archeological Museum – 8 minutes walk
+        -Black Sea and Central beach– 15 minutes walk
+        -Bus Station – 20 minutes walk
+        Yo-Ho-Hostel is the most central place for accommodation in Varna! Every young and alternative looking person in the city can tell you where Yo-Ho-Hostel is situated. The address is 23, Ruse Street and here you will see a colorful door with a lot of graffiti art \' this is Yo-Ho-Hostel! Our GPS coordinates are: 43*12.216 N , 027*54.619 E
+        You can use :
+        -fully equipped self-catering kitchen
+        -laundry and drying service
+        -iron and ironing board
+        -relaxing quiet garden
+        -BBQ
+        -Bar
+        -Smoking area
+        -Board games area
+        -Exchange library
+        -Guide books for hire
+        - Bikes for hire
+        - Table football and Arcanoid game
+        - Security camera control
+        OUR BATHROOMS ARE COMBO WITH WC
+        If you don\'t like boring places!
+        We will always give you an option to do something fun and interesting.
+        For travelers, who like cultural activities you can find:
+        -guided trips around Varna museums and art galleries
+        -guided day trips to more than 20 interesting natural and historical sites
+        -visiting Varna film, music and cultural festivals
+        For alternative backpackers:
+        -Bungy jumping from a 52 m high bridge
+        -Boat trip with pirate’s ship “Pinta Varna” with fishing on the way
+        -SCUBA diving for beginners and professionals
+        -Kite, wind, long and skim board surfing close to Varna
+        -Once per year - 3 days kayaking trip with sleeping in tents
+        -Pub crawl in summer time
+        -visiting of hot mineral springs in ' St. Constantine'
+
+        This is the ONLY hostel where every night you can enjoy live music and meet some of the best musicians, artists and sports people from Bulgaria - exchanging interesting experiences with them. On arrival we require 10 BGN ( 5 EU ) key deposit.
+        We will recommend you the best places to eat in Varna -Traditional Bulgarian, Turkish, Greek, Armenian, Italian, Spanish, Japanese and Fish restaurants. We are working with the best bars and clubs- you will be welcome like a V.I.P. there ! We are in perfect relation with our friends hostels in Bulgaria!
+        Sozopol: Yo-Ho-Hostel - summer hostel
+        Veliko Tarnovo: Hostel Mostel
+        Sofia: Art Hostel -Usually we spend our time in the garden
+        Sofia: Hostel Mostel
+        Plovdiv: Hostel Old Plovdiv
+        Burgas: Hostel A16
+        Ruse: The English Guest house
+
+        This is Yo-Ho-Hostel - culture and alternative, obligatory place for every backpacker who wants to explore Varna, Bulgaria!
+
+        Welcome aboard!</string>
+    <string name="description">Description:</string>
+</resources>

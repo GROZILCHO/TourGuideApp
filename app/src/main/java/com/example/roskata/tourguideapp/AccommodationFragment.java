@@ -70,10 +70,6 @@ public class AccommodationFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-
-                // ListView Clicked item value
-                String itemValue = (String) listView.getItemAtPosition(position);
-
                 Intent intent = new Intent(getActivity(), SingleItemActivity.class);
                 intent.putExtra("CiteName", listView.getItemIdAtPosition(position));
                 startActivity(intent);

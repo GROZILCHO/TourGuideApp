@@ -1098,4 +1098,6 @@
     </string>
 
     <string name="description">Description:</string>
+    <string name="welcome_to_varna">Welcome to Varna!</string>
+    <string name="address">address</string>
 </resources>

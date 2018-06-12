@@ -24,7 +24,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_toRightOf="@id/list_icon_item"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/list_icon_item"
         android:orientation="vertical"
         android:paddingEnd="@dimen/main_app_padding"
         android:paddingStart="@dimen/main_app_padding">
@@ -60,7 +61,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:padding="@dimen/default_app_paddinng"
-        android:src="@drawable/ic_directions_walk"/>
+        android:src="@drawable/ic_directions_walk"
+        android:contentDescription="@string/list_item_icon"/>
 
     <View
         android:layout_width="match_parent"

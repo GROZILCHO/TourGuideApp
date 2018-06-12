@@ -36,7 +36,7 @@
             android:layout_weight="1"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/colorPrimaryText"
+            android:textColor="@android:color/white"
             android:textStyle="bold"
             tools:text="Label"/>
 
@@ -47,11 +47,10 @@
             android:layout_weight="1"
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/colorPrimaryText"
+            android:textColor="@android:color/white"
             tools:text="Address" />
 
     </LinearLayout>
-
 
     <ImageView
         android:layout_width="wrap_content"
@@ -61,7 +60,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:padding="@dimen/default_app_paddinng"
-        android:src="@drawable/sharp_add_location_black_36dp"/>
+        android:src="@drawable/ic_directions_walk"/>
 
     <View
         android:layout_width="match_parent"

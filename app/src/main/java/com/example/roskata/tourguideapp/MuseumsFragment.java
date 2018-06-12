@@ -1,11 +1,13 @@
 package com.example.roskata.tourguideapp;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -43,9 +45,10 @@ public class MuseumsFragment extends Fragment {
         cites.add(new Cite(R.drawable.archeological, "Archaeological Museum", "41, \"Maria Luiza\" Blv.\n10AP - 5PM"));
         cites.add(new Cite(R.drawable.ethnographical, "Ethnographic Museum", "22, \"Panagyurishte\" Str.\n10AP - 5PM"));
         cites.add(new Cite(R.drawable.necropolis, "Varna Necropolis", "53, \"Usta Kolyu Ficheto\" Str.\n9AP - 6PM"));
-        cites.add(new Cite(R.drawable.varnenchik, "Park Museum „Vladislav Varnenchik“", "1, \"Yan Huniyadi\" Blv.\n9:30AP - 6:30PM"));
+        cites.add(new Cite(R.drawable.varnenchik, "Park Museum \"Vladislav Varnenchik\"", "1, \"Yan Huniyadi\" Blv.\n9:30AP - 6:30PM"));
         cites.add(new Cite(R.drawable.naval, "Naval Museum", "2, \"Primorski\" Blv.\n10AP - 6PM"));
         cites.add(new Cite(R.drawable.aquarium, "Varna Aquarium", "4, \"Primorski\" Blv.\n10AP - 5PM"));
+        cites.add(new Cite(R.drawable.puppets, "Varna Puppet Museum", "5, \"Sheinovo\" Str.\n10AP - 5PM"));
         cites.add(new Cite(R.drawable.roman_baths, "Roman Thermae", "\"San Stefano\" Str.\n10AP - 5PM"));
         cites.add(new Cite(R.drawable.observatory, "Astronomical Observatory and Planetarium Copernicus", "9002, \"Primorski\" Blv.\n10AP - 5PM"));
 
@@ -56,12 +59,21 @@ public class MuseumsFragment extends Fragment {
         // simple_list_item_1.xml layout resource defined in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
-        CiteAdapter adapter = new CiteAdapter(getActivity(), cites, R.color.transparent);
+        CiteAdapter adapter = new CiteAdapter(getActivity(), cites, R.color.category_museums);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // activity_colors.xml layout file.
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        final ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Intent intent = new Intent(getActivity(), SingleItemActivity.class);
+                intent.putExtra("CiteName", ((Cite) listView.getItemAtPosition(position)).getCiteLabel());
+                startActivity(intent);
+            }
+        });
 
         // Make the {@link ListView} use the {@link ArrayAdapter} we created above, so that the
         // {@link ListView} will display list items for each word in the list of words.

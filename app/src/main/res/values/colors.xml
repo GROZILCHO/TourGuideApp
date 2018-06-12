@@ -12,19 +12,16 @@
     <!-- Background color for app -->
     <color name="tan_background">#FFF8DA</color>
 
-    <!-- Background color for the _________ category -->
-    <color name="category_museums">#FF7043</color>
+    <!-- Background color for the museums category -->
+    <color name="category_museums">#464646</color>
 
-    <!-- Background color for the _________ category -->
-    <color name="category_accommodation">#26C6DA</color>
+    <!-- Background color for the accommodation category -->
+    <color name="category_accommodation">#BF8624</color>
 
-    <!-- Background color for the _________ category -->
-    <color name="category_culture">#ab47bc</color>
+    <!-- Background color for the culture category -->
+    <color name="category_culture">#243160</color>
 
-    <!-- Background color for the _________ category -->
-    <color name="category_nature">#66BB6A</color>
-
-    <!-- Background color for the _________ category -->
-    <color name="category_fun">#EC407A</color>
+    <!-- Background color for the fun category -->
+    <color name="category_fun">#D8386E</color>
 
 </resources>

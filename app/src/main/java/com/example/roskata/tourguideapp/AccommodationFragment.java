@@ -51,7 +51,7 @@ public class AccommodationFragment extends Fragment {
         final ArrayList<Cite> cites = new ArrayList<Cite>();
         cites.add(new Cite(R.drawable.yohohostel, getString(R.string.yo_ho_hostel), getString(R.string.yoho_address)));
         cites.add(new Cite(R.drawable.del_mare, "Hostel Del Mar", "29, \"Krajbrezhna\" Str."));
-        cites.add(new Cite(R.drawable.x_hostel, "X-Hostel", "\"16th\" Str., 19, Evksinograd\nwww.xhostel.com/varna/"));
+        cites.add(new Cite(R.drawable.x_hostel, "X-Hostel", "\"16th\" Str., 19, Evksinograd\nwww.xhostel.com/varna"));
         cites.add(new Cite(R.drawable.avocado, "Avocado Hostel", "31, \"Maria Luiza\" Blv."));
 
 
@@ -60,7 +60,7 @@ public class AccommodationFragment extends Fragment {
         // simple_list_item_1.xml layout resource defined in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
-        CiteAdapter adapter = new CiteAdapter(getActivity(), cites, R.color.transparent);
+        CiteAdapter adapter = new CiteAdapter(getActivity(), cites, R.color.category_accommodation);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
@@ -71,7 +71,7 @@ public class AccommodationFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 Intent intent = new Intent(getActivity(), SingleItemActivity.class);
-                intent.putExtra("CiteName", listView.getItemIdAtPosition(position));
+                intent.putExtra("CiteName", ((Cite) listView.getItemAtPosition(position)).getCiteLabel());
                 startActivity(intent);
             }
         });

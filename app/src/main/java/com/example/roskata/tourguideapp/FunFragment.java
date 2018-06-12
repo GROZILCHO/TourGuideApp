@@ -1,11 +1,13 @@
 package com.example.roskata.tourguideapp;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -35,9 +37,6 @@ public class FunFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.cite_list, container, false);
 
-//        headerText = (TextView) getActivity().findViewById(R.id.toolbar_text);
-//        headerText.setText("Fun");
-
         final ArrayList<Cite> cites = new ArrayList<Cite>();
         cites.add(new Cite(R.drawable.volley, "FIVB Volleyball Men's World Championship", "Sep 10 - Sep 30"));
         cites.add(new Cite(R.drawable.na_tamno, "Na Tamno", "2, \"Stefan Stambolov\" Str.\nwww.natamno.com"));
@@ -57,12 +56,21 @@ public class FunFragment extends Fragment {
         // simple_list_item_1.xml layout resource defined in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
-        CiteAdapter adapter = new CiteAdapter(getActivity(), cites, R.color.transparent);
+        CiteAdapter adapter = new CiteAdapter(getActivity(), cites, R.color.category_fun);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // activity_colors.xml layout file.
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        final ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Intent intent = new Intent(getActivity(), SingleItemActivity.class);
+                intent.putExtra("CiteName", ((Cite) listView.getItemAtPosition(position)).getCiteLabel());
+                startActivity(intent);
+            }
+        });
 
         // Make the {@link ListView} use the {@link ArrayAdapter} we created above, so that the
         // {@link ListView} will display list items for each word in the list of words.

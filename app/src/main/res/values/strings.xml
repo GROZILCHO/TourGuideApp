@@ -1,12 +1,6 @@
 <resources>
     <string name="app_name">Varna Tour Guide App</string>
-    
-    <string-array name="cites">
-        <item>Yo-Ho-Hostel</item>
-        <item>Hostel Del Mar</item>
-        <item>X-Hostel</item>
-        <item>Avocado Hostel</item>
-    </string-array>
+
     <string name="list_item_icon">list item icon</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -24,68 +18,1084 @@
     <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
     <string name="category_fun">Fun</string>
     <string name="avatar">avatar</string>
+
+    <!--ACCOMMODATION DATA-->
     <string name="yo_ho_hostel">Yo-Ho-Hostel</string>
     <string name="yoho_address">23, \"Russe\" Str.\nwww.yohohostel.com</string>
-    <string name="yoho_description">Yo-Ho-Hostel - most popular place in the heart of Varna ! Hostel for backpackers, explorers, musicians and artists ! OPEN ALL YEAR ROUND AND 24/7 !
+    <string name="yoho_description">
+        Yo-Ho-Hostel - most popular place in the heart of Varna ! Hostel for backpackers, explorers, musicians and artists!\n
+        OPEN ALL YEAR ROUND AND 24/7 !
+        \n\n
         Yo-Ho-Hostel - 12th Years we offer you the BEST PRICE in Varna ! Come, check and stay longer than you expect!
         Most central, most friendly, most funny …
-
+        \n\n
         Top rated hostel in Varna since 2007 from www.hostelworld.com! Sleep Easy !
         Best recommended hostel in Varna from \'Lonely Planet\' Guide Book 2008, 2009 ,2011 and 2015 !
         The only hostel in Varna recommended from \'Le Guide du Routard\' from 2008 till 2016 !
-        Where are we on the map?
-        Walking distance from Yo-Ho-Hostel you can find:
-        -Tourist information center – 1 minute walk
-        -Cathedral church – 2 minutes walk
-        -Theater and Opera – 2 minutes walk
-        -Pedestrian street – 2 minutes walk
-        -Railway station – 8 minutes walk
-        -Archeological Museum – 8 minutes walk
-        -Black Sea and Central beach– 15 minutes walk
-        -Bus Station – 20 minutes walk
-        Yo-Ho-Hostel is the most central place for accommodation in Varna! Every young and alternative looking person in the city can tell you where Yo-Ho-Hostel is situated. The address is 23, Ruse Street and here you will see a colorful door with a lot of graffiti art \' this is Yo-Ho-Hostel! Our GPS coordinates are: 43*12.216 N , 027*54.619 E
-        You can use :
-        -fully equipped self-catering kitchen
-        -laundry and drying service
-        -iron and ironing board
-        -relaxing quiet garden
-        -BBQ
-        -Bar
-        -Smoking area
-        -Board games area
-        -Exchange library
-        -Guide books for hire
-        - Bikes for hire
-        - Table football and Arcanoid game
-        - Security camera control
-        OUR BATHROOMS ARE COMBO WITH WC
-        If you don\'t like boring places!
-        We will always give you an option to do something fun and interesting.
-        For travelers, who like cultural activities you can find:
-        -guided trips around Varna museums and art galleries
-        -guided day trips to more than 20 interesting natural and historical sites
-        -visiting Varna film, music and cultural festivals
-        For alternative backpackers:
-        -Bungy jumping from a 52 m high bridge
-        -Boat trip with pirate’s ship “Pinta Varna” with fishing on the way
-        -SCUBA diving for beginners and professionals
-        -Kite, wind, long and skim board surfing close to Varna
-        -Once per year - 3 days kayaking trip with sleeping in tents
-        -Pub crawl in summer time
-        -visiting of hot mineral springs in ' St. Constantine'
-
-        This is the ONLY hostel where every night you can enjoy live music and meet some of the best musicians, artists and sports people from Bulgaria - exchanging interesting experiences with them. On arrival we require 10 BGN ( 5 EU ) key deposit.
-        We will recommend you the best places to eat in Varna -Traditional Bulgarian, Turkish, Greek, Armenian, Italian, Spanish, Japanese and Fish restaurants. We are working with the best bars and clubs- you will be welcome like a V.I.P. there ! We are in perfect relation with our friends hostels in Bulgaria!
-        Sozopol: Yo-Ho-Hostel - summer hostel
-        Veliko Tarnovo: Hostel Mostel
-        Sofia: Art Hostel -Usually we spend our time in the garden
-        Sofia: Hostel Mostel
-        Plovdiv: Hostel Old Plovdiv
-        Burgas: Hostel A16
+        \n\n
+        Yo-Ho-Hostel is the most central place for accommodation in Varna! Every young and alternative looking person in the city
+        can tell you where Yo-Ho-Hostel is situated.\n
+        The address is 23, Ruse Street and here you will see a colorful door with a lot of graffiti art \' this is Yo-Ho-Hostel!
+        Our GPS coordinates are: 43*12.216 N , 027*54.619 E
+        \n\n
+        You can use :\n
+        -fully equipped self-catering kitchen\n
+        -laundry and drying service\n
+        -iron and ironing board\n
+        -relaxing quiet garden\n
+        -BBQ\n
+        -Bar\n
+        -Smoking area\n
+        -Board games area\n
+        -Exchange library\n
+        -Guide books for hire\n
+        - Bikes for hire\n
+        - Table football and Arcanoid game\n
+        - Security camera control\n
+        OUR BATHROOMS ARE COMBO WITH WC\n
+        If you don\'t like boring places!\n
+        We will always give you an option to do something fun and interesting.\n
+        For travelers, who like cultural activities you can find:\n
+        -guided trips around Varna museums and art galleries\n
+        -guided day trips to more than 20 interesting natural and historical sites\n
+        -visiting Varna film, music and cultural festivals\n
+        For alternative backpackers:\n
+        -Bungy jumping from a 52 m high bridge\n
+        -Boat trip with pirate’s ship “Pinta Varna” with fishing on the way\n
+        -SCUBA diving for beginners and professionals\n
+        -Kite, wind, long and skim board surfing close to Varna\n
+        -Once per year - 3 days kayaking trip with sleeping in tents\n
+        We are in perfect relation with our friends hostels in Bulgaria!\n
+        Sozopol: Yo-Ho-Hostel - summer hostel\n
+        Veliko Tarnovo: Hostel Mostel\n
+        Sofia: Art Hostel -Usually we spend our time in the garden\n
+        Sofia: Hostel Mostel\n
+        Plovdiv: Hostel Old Plovdiv\n
+        Burgas: Hostel A16\n
         Ruse: The English Guest house
-
+        \n\n
         This is Yo-Ho-Hostel - culture and alternative, obligatory place for every backpacker who wants to explore Varna, Bulgaria!
-
+        \n\n
         Welcome aboard!</string>
+
+    <string name="del_mar_hostel">Hostel Del Mar</string>
+    <string name="del_mar_address">29, \"Krajbrezhna\" Str.</string>
+    <string name="del_mar_description">
+        BBQ or meet new friends in our beautiful garden with roses and wineyard Camping for 5 euro p.p.!\n
+        Our cosy hostel has the unbeatable location to relax fully and explore the urban atmosphere and Varna\'s nightlife in the same
+        time.We are 10-15 mins with the city bus to the center of Varna- the main Cathedral.\n
+        Hostel Del Mar was opened at 2008 and last renovated in 2016, we have all brand new furnishing and modern facilities, 4 new and
+        beautifully decorated bathrooms with 24h hot water,fully equipped kitchen and open air kitchen as well.\n
+        We offer VARIETY of rooms to suit each situation:\n
+        Single, Doubles with King size beds,Twins,Triples and Quadruples Ensuite, Dormitory for 6-7 people.\n
+        FREE Unlimited Internet and Wi-Fi access,\n
+        Cable TV in each private room,\n
+        FREE Ironed Bed Linen\n
+        FREE Lockers&amp;Luggage Storage after the check-out time\n
+        FREE Towels for the private rooms\n
+        FREE Maps of Varna\n
+        FREE Use of all the facilities (except the washing machine)-kitchen,BBQ, Sun Loungers, hair dryer, Iron....\n
+        Situated on picturesque heights of Galata with a great sea view to Varna, St. Konstantin and Helena bay, and the famous
+        Kaliakra cape we offer everything you need for a comfortable, enjoyable stay.
+    </string>
+
+    <string name="xhostel_hostel">X-Hostel</string>
+    <string name="xhostel_address">\"16th\" Str., 19, Evksinograd\nwww.xhostel.com/varna</string>
+    <string name="xhostel_description">The World Famous Flagship X Hostel invites You to be part of our Sensational Sizzling Seaside
+        Summer! Come join our super social environment where we specialize in good vibes, great atmosphere and cool people. Tired of
+        the usual holiday? Come and meet new friends, have fun, party hard and never get bored, or relax in our unique tropical garden
+        and then chill in our outdoor area with a cold drink…. We are the closest hostel to the hot springs and Golden Sands: where all
+        the real partying is! Varna Rocks! Come and find out for yourself!
+        Did you know that more than 257 guests since July 2010 got an X HOSTEL tattoo? It is set in a large and spacious Villa with a
+        tropical garden we are a true backpacker’s paradise. Walking distance to great beaches and mineral hot springs. We have fabulous
+        outdoor areas with a wood fired oven, BBQ and lots more. Come meet new friends and make life long memories here at X Hostel Varna!
+        \n\n
+        Located in the upscale neighborhood of Evksinovgrad, we are walking distance to St. Constantine and Elena which is full of restaurants,
+        bars, and shopping, ancient monastery, adventure sports, hot springs and more. Near by the hostel are several supermarkets, gas
+        station, ATM machine, fish restaurant and more. We are located halfway between downtown Varna and all its splendour and Golden
+        Sands party resort to the north.
+        \n\n
+        Enjoy our large villa, tropical garden, airy rooms and awesome outdoor common areas. Come see why the call Varna Paradise City.
+        We have a variety of room types: Two 8 bed dorms, a 6 Bed dorm, another 6 Bed female dorm, Several private rooms for 1,2,3, or 4
+        people. We have two kitchens, outdoor and indoor, coffee machine, wood over, large BBQ, tropical garden, sea view terrace. It’s a
+        great place to relax and meet people and socialize.
+        \n\n
+        X Hostel Varna Policies &amp; Conditions:
+        \n\n
+        Check in from 14:00.\n
+        Check out before 11:00.
+        \n\n
+        Cancellation policy: 24 h before arrival.\n
+        Payment upon arrival by cash, credit cards, debit cards. This property might pre-authorize your credit card.
+        \n\n
+        Taxes included.\n
+        Breakfast not included.\n
+        \n\n
+        General:\n
+        24/7 reception.\n
+        No curfew.\n
+        We do not accept customers younger than 18 years of age.
+    </string>
+
+    <string name="avocado_hostel">Avocado Hostel</string>
+    <string name="avocado_address">31, \"Maria Luiza\" Blv.</string>
+    <string name="avocado_description">RECEPTION IS NOT OPEN 24 HOURS!\n
+        Our reception is open from 8:30AM to 23:00PM.\n
+        If you arrive earlier or later, please contact us on avocadohostel@gmail.com.
+        \n\n
+        Avocado Hostel is located on the two floors and the backyard of the beautiful historic building. All our rooms are huge, spacious
+        and have air conditioners in them.
+        \n\n
+        We are located right on the Maria Luiza boulevard, between the Varna Cathedral and the Archaeological Museum, near the central
+        square, the Opera and the Tourist Center. Almost all of the city attractions are within walking distance. There are lots of bus
+        stops around connecting our hostel to all parts of Varna and its surroundings.
+        \n\n
+        Avocado Hostel offers: two common area rooms! six bathrooms: two toilets, two showers, and two toilet/shower Bulgarian-style
+        combos; cozy kitchen is connected to our big sunny garden - have your (free!) breakfast outside if the weather is nice! our own
+        car parking! (space is limited so ask beforehand if it's available for your dates). We have 8 bedrooms: three 8-bed dorms; one
+        4-bed dorm; two 2-bed private rooms; two double bed private rooms.
+        \n\n
+        Avocado Hostel Policies &amp; Conditions:
+        \n\n
+        Check in from 13:00 to 23:00.\n
+        Check out before 11:00.
+        \n\n
+        Cancellation policy: 24h before arrival.\n
+        Payment upon arrival by cash, credit cards, debit carsd. This property may pre-authorise your credit card.\n
+        All our guests receive access code for the door and can use it anytime.
+        \n\n
+        Taxes included.\n
+        Breakfast included.
+        \n\n
+        General:\n
+        No curfew.\n
+        Child friendly.
+    </string>
+
+    <!--CULTURE DATA-->
+    <string name="varna_summer_int_music_fest">\"Varna Summer\" International Music Festival</string>
+    <string name="varna_summer_int_music_fest_calendar">Jun 24 - Sep 20</string>
+    <string name="varna_summer_int_music_fest_description">
+        As a precursor of Varna Summer IMF are considered the First Public Music Celebrations in Varna, 1926.
+        The idea originated from Varna culture promoters Ghertcho Ghertchev, Ivan Kamburov, Vassil Stavrev,
+        Naiden Naidenov, Yordan Todorov, warmly supported by the composers Dobri Hristov, Pantcho Vladigerov, Maestro Georgi Atanasov.
+        After a break of 3 years (1932 - 1935) the celebrations are resumed and last until 1939
+        (in 1938 it was first attempted to make the celebrations international) and are stopped again with the beginning
+        of World War II. In 1957 the Varna Summer Music Celebrations were resumed under the name of "Varna Summer". Gradually they
+        have attracted the best Bulgarian performers and ensembles as well as world-famous foreign performers. The overall image of
+        the festival is characterized by the presentation of masterpieces of Bulgarian and world music with a diversity of genres
+        and performance by renowned musicians. Varna Music Institutions and renowned Bulgarian performers and ensembles traditionally
+        perform here. Foreign soloists, conductors, symphony and chamber orchestras, choirs, ballet ensembles of world value impress
+        with their yearly presence. Many premieres are presented on the festival stage. The cycles "Days of the Young Chamber Performer
+        " and "Early Music" are also met with great interest. Since 1984 the Varna Summer Academy has been included in the festival.
+        The Master classes are led by pedagogues and performers of international authority and fame. Since 1993 Varna Summer has been
+        enriched by the Scientific Meetings.
+        \n\n
+        Venues: Festival and Congress Center, Drama Theater, City Art Gallery, Open-air Theater, Graffiti Gallery
+        \n\n
+        Organizers: Varna Municipality, Culture and Intellectual Development Directorate
+        \n\n
+        For contacts: Plamena Tsoneva – tel 052 820 669; mob. 0888630092;
+        \n\n
+        e-mail: tsoneva@varnasummerfest.org
+        \n\n
+        For more information: www.varnasummerfest.org
+    </string>
+
+    <string name="int_theater_fest">International Theatre Festival "Varna Summer"</string>
+    <string name="int_theater_fest_calendar">Jun 24 - Sep 20</string>
+    <string name="int_theater_fest_description">
+
+        XXVI International Theatre Festival "Varna Summer"\n
+        01.06.2018г. - 11.06.2018г.\n
+        The INTERNATIONAL THEATRE FESTIVAL “VARNA SUMMER” is an event within a larger frame of art festivals with long traditions
+        carried out in the city of Varna, including music festival initiated in 1926, ballet competition that started in 1964, jazz
+        and folklore festivals, taking place since 1992.  The festival has been supported by the Bulgarian Theatre Association (BAT),
+        the Municipality of Varna and the Ministry of Culture. It’s first edition was in 1993. Until 2004 BAT used to take over the
+        main functions of organizing and programming the theatre festival and afterwards these functions were transferred to the
+        “VIA FEST – International Theatre Festival Varna Summer” Foundation.
+        \n\n
+        The first three festival editions comprised entirely of selected Bulgarian productions. After 1995 the festival turned into
+        an international forum, which offers a parallel program of workshops, exhibitions, conferences, seminars and others. More
+        venues started presenting festival events and apart from the stages of the Drama Theatre in Varna and the Puppet Theatre in
+        Varna, the festival attracted also the Festival and Congress Centre – Varna, City Art Gallery – Varna, Archaeological Museum –
+        Varna, “Graffit” Gallery and others. The festival established more partnerships with various local, national and international
+        organizations with whom it cooperates on the realization of various conferences, educational modules and coproductions.
+        \n\n
+        Gradually the festival program got structured around four main modules: Main Program – Bulgarian Selection, Main Program –
+        International Selection, Showcase Program (organized together with Art Office – a showcase of innovative and mobile Bulgarian
+        productions, presented not just for the festival audience, but also for the specially invited selectionists and programmers
+        of international festivals, venues and organizations) and Parallel Program.  This mosaic principle is in accordance with the
+        aim of the festival to create a space for dialogue where different visions of theatre and different artists from all over the
+        world and different audiences can meet.
+        \n\n
+        INTERNATIONAL THEATRE FESTIVAL “VARNA SUMMER” is Bulgaria’s biggest international theatre event. It is a proud owner of the
+        “European Festival” label – an European certificate for quality, part of the project “Europe For Festivals – Festivals For
+        Europe”.
+    </string>
+
+    <string name="int_ballet_fest">28th International Ballet Competition</string>
+    <string name="int_ballet_fest_calendar">Jul 15 - Jul 30</string>
+    <string name="int_ballet_fest_description">
+        “The International Ballet Competition – Varna” was established in 1964. Its first edition was held from 15 to 30 July at the
+        Open-Air Theatre in the same city – the biggest sea resort of Bulgaria. It is the first professional international ballet
+        competition in the world.
+        \n\n
+        On this occasion the world-famous French ballet master Serge Lifar said:
+        \n\n
+        “The Varna Competition is a unique event in the history of ballet, an event of huge importance…”.
+        \n\n
+        A strict organization which recognizes the age of the participants. Seniors and juniors are judged individually and awarded separate
+        prizes. All activities during the out of the competition are regulated by pre-announced regulations, whereby the relevant schedule
+        is strictly adhered to. Maximum efforts are exerted to ensure adequate rehearsals in halls specially equipped for the purpose and
+        on the stage of the Open-Air Theatre.
+        \n\n
+        Special attention is paid to the work of the International Jury. Only in Varna, among all other competitions, full computerization
+        of voting is implemented. Each member of the International Jury gives the relevant mark immediately after the performance of the
+        dancer. By a special device the mark is entered, with a unique code, into the Jury’s computer without any interference of an operator
+        or mediator. A mathematical system is applied to prevent extreme personal opinions to influence the marks of the competitors.
+        \n\n
+        Contact:\n
+        FOUNDATION “INTERNATIONAL BALLET COMPETITION – VARNA”
+        \n\n
+        67, Hristo Botev Blvd., entrance 1, floor 2, apt. 13
+        \n\n
+        1303 Sofia, Bulgaria
+        \n\n
+        Tel. +359-2-988-3377
+        \n\n
+        Fax +359-2-986-1901
+        \n\n
+        Email: varnaibc@gmail.com
+        \n\n
+        web: www.varna-ibc.org
+    </string>
+
+    <string name="int_jazz_fest">26th INTERNATIONAL JAZZ FESTIVAL</string>
+    <string name="int_jazz_fest_calendar">Jul 26 - Jul 29</string>
+    <string name="int_jazz_fest_description">
+        Programme:\n
+        27.07    METAфоRмоZA - Roco Zahariev quartet
+        \n\n
+                     Bulgaria
+        \n\n
+                     Srdjan Ivanovic Blazin\' quartet
+        \n\n
+                     Bosnia &amp; Herzegovina / Holland /
+        \n\n
+                     Greece / France / Bulgaria
+        \n\n
+        28.07    Adam Wendt Power Set
+        \n\n
+                     Poland
+        \n\n
+                     Conrad Herwig &amp; Antoni Donchev trio
+        \n\n
+                     USA / Bulgaria
+        \n\n
+        29.07    Peter Momchev quintet
+        \n\n
+                     Bulgaria
+        \n\n
+                     Hristo Yotsov project Jazz Cats
+        \n\n
+                     Bulgaria / Spain
+        \n\n
+                     Sergey Manukian trio
+        \n\n
+                     Russia
+        \n\n
+        ---
+        \n\n
+        Established in 1992, it is held annually featuring world famous musicians from Bulgaria and abroad. Besides the joint
+        international projects the programme includes performances of young Bulgarian jazz musicians.
+        \n\n
+        Venue: Courtyard of the Archeological Museum
+        \n\n
+        Organizer: Varna Jazz Society
+        \n\n
+        Contacts: Anatoly Vapirov –tel. 052/ 820 745; mob. 0888 303 381; e-mail: vapirov@telecoms.bg
+        \n\n
+        https://www.facebook.com/vsijf?fref=ts
+    </string>
+
+    <string name="int_folk_fest">International Folklore Festival "Varna Summer"</string>
+    <string name="int_folk_fest_calendar">Jul 29 - Aug 02</string>
+    <string name="int_folk_fest_description">
+        OPEN-AIR THEATER – VARNA
+        \n\n
+        30 July (Sunday) 21:00
+        \n\n
+         Official Opening Together, Now and Forever
+        \n\n
+         Concert with all ensembles with the special participation of Folklore Ensemble “Varna” and Ensemble at the National High School of Humanities and Arts “Konstantin Preslavski”, Varna
+        \n\n
+        31 July (Monday) 21:00
+        \n\n
+         Festival evening A Journey around the World with ensembles from MACEDONIA, GEORGIA, PERU
+        \n\n
+        1 August (Tuesday) 21:00
+        \n\n
+         Festival evening A Journey around the World with ensembles from INDIA, TURKEY, COLOMBIA
+        \n\n
+        2 August (Wednesday) 21:00
+        \n\n
+         Festival evening A Journey around the World with ensembles from COLOMBIA, POLAND, GEORGIA
+        \n\n
+        3 August (Thursday) 21:00
+        \n\n
+         Official Closing Staying Friends
+        \n\n
+         Gala concert with all participants
+        \n\n
+        \n\n
+         PROCESSIONS IN VARNA
+        \n\n
+        30 July (Sunday) 18:30
+        \n\n
+         Folklore Medley
+        \n\n
+         Procession from Nezavisimost Square to the Entrance of the Sea Garden
+        \n\n
+        3 August (Thursday) 19:00
+        \n\n
+         Folklore Medley
+        \n\n
+         Procession from Cherno More Hotel to the Open-air Theatre
+        \n\n
+         JOINT EVENTS
+        \n\n
+        31 July (Monday) 19:00 Stage Rakovina
+        \n\n
+         Sea Garden, Varna
+        \n\n
+         Concert with ensembles from
+        \n\n
+         MACEDONIA, GEORGIA, PERU
+        \n\n
+        31 July (Monday) 20:00 District Vladislavovo
+        \n\n
+         Public cultural center P. R. Slaveykov
+        \n\n
+         Concert with ensembles from
+        \n\n
+         INDIA, POLAND, COLOMBIA
+        \n\n
+        1 August (Tuesday) 19:30 Amphitheater in the Golden Sands Resort
+        \n\n
+         Concert with ensembles from
+        \n\n
+         POLAND, MACEDONIA, GEORGIA
+        \n\n
+        1 August (Tuesday) 19:00 Stage Rakovina
+        \n\n
+         Sea Garden, Varna
+        \n\n
+         Concert with ensembles from
+        \n\n
+         INDIA, TURKEY, COLOMBIA
+        \n\n
+        2 August (Wednesday) 19:30 Amphitheater in the Golden Sands Resort
+        \n\n
+         Concert with ensembles from
+        \n\n
+         INDIA, MACEDONIA, TURKEY
+        \n\n
+        2 August (Wednesday) 19:00 Stage Rakovina
+        \n\n
+         Sea Garden, Varna
+        \n\n
+         Concert with ensembles from
+        \n\n
+         COLOMBIA, POLAND, GEORGIA
+        \n\n
+        ------------------------
+        \n\n
+        Established in 1992 under the initiative of the Varna Municipality, it is held every year in the first week of August.
+        According to the festival regulations youth and adult ensembles from all over the world as well as groups for authentic
+        folklore art are admitted to participation.
+        \n\n
+        Venues: Open-air Theater, Rakovina Stage and open-air stages in the city
+        \n\n
+        Organizer: Varna Municipality
+        \n\n
+        For contacts: Zhasmina Vasileva –tel. 052/ 820 667; Mob. 0889 919 414\n
+        https://www.facebook.com/www.varnafolk.org/
+    </string>
+
+    <string name="print_fest">XIX International Print Biennial</string>
+    <string name="print_calendar">Jul 01 - Sep 30</string>
+    <string name="print_description">
+        It has been held since 1981. Originally it was organized as a national exhibition of graphic artists with a participation of
+        international artists. The main initiators and organizers were the Committee of Culture, Union of Bulgarian Artists and the
+        Regional Council of Culture – Varna. In 1987 its statute as International Print Biennial was approved. During the 1990s the
+        Ministry of Culture and the Union of Bulgarian Artists bit by bit withdrew their financial support. From 1981 to 1991 it was
+        held from May until the end of August. In the period 1993 – 2001 it was organized in the autumn – October – December. In the
+        statute the Biennial is defined as “an international forum and encounter of artists from different countries, bearing the
+        wealth and variety of the world graphic art which plays and important role for the mutual exchange of ideas, for the
+        intellectual and artistic contacts of artists and peoples in the struggle for peace, beauty and humanism”. The works of the
+        biennial are exhibited in the City Art Gallery Boris Georgiev.
+        \n\n
+        Venue: City Art Gallery Boris Georgiev
+        \n\n
+        Organiser: Varna Municipality, Ministry of Culture in Bulgaria, Union of Bulgarian Artists
+    </string>
+
+    <string name="radar_fest">RADAR Festival</string>
+    <string name="radar_fest_calendar">Aug 10 - Aug 13</string>
+    <string name="radar_fest_description">
+        In its 4th edition, Radar festival opens new horizons in music and dares beyond borders of genres, art forms and perceptions.
+        Artists from the legendary German label ECM open the festival on 3 August at the Varna City Gallery. The duo of Anja Lechner
+        and Franҫois Couturier presents their album MODERATO CANTABILE, dedicated to the mystics Komitas, Gurdjieff and Mompou. Two
+        brilliant musicians explore sacred depths of art that had been left at the margins of music history and brought to light for
+        the audiences of RADAR this year.
+        \n\n
+        Charismatic actress and singer Militsa Gladnishka presents her new project TITANIC. Together with her band she tells the story
+        of the last hours of the famous Titanic orchestra that kept playing until their very end. A concert, a theater performance, a
+        comedy and a tragedy at the same time, a story that loves life!
+        \n\n
+        NOTES ON HOPPER is a musical performance sung by Judith Scholte and played by Dimitar Bodurov and Nils van Haften. They tell
+        a story about the life and works of famous American painter Edward Hopper, seen through the eyes of his wife.
+        \n\n
+        See the full program and start your journey beyond the borders of the expected.
+        \n\n
+        MAIN PROGRAM
+        \n\n
+        MODERATO CANTIBILE (DE/FR) - Enigmatic duo concert
+        \n
+         Date/Time: 03.08 / 20:00
+        \n\n
+        TITANIC (BG) Music theatre performance, a combination of humour and jazz (in Bulgarian)
+        \n
+         Date/Time: 04.08 / 19:30
+        \n\n
+        IDMT (BG) - Audio-visual electronic set
+        \n
+         Date/Time: 04.08 / 22:00
+        \nv
+        NOTES ON HOPPER (NL/BG) - Audio-visual performance
+        \n
+         Date/Time: 05.08 / 19:30
+        \n\n
+        NOVI_SAD (GR) - Audio-visual ambients and mirages
+        \n
+         Date/Time 05.08 / 22:00
+        \n\n
+        DrummingCellist (SI)  - One-man-duet
+        \n
+         Date/Time  06.08 / 19:30
+        \n\n
+        CLAVEXPERIENCE (BG) - Beatbox, voice and electronics travelling across trip hop, jazz and reggae
+        \n
+         Date/Time  06.08 / 22:00
+        \n\n
+        ACCOMPANYING PROGRAM
+        \n\n
+        RESIDENCY - Architecture of disappearing (BG)
+        \n
+         04.08 | 18:00 | Grafitti Gallery
+        \n
+         Free entry
+        \n\n
+        Atelier for Young Festival Managers
+        \n
+         04.08 - 06.08
+        \n\n
+        Creativity beyond limits – accompanying lecture program
+        \n\n
+        Lecture on Visual Music led by Antony Raijekov and presentation of performance SOMAPHONY performed by Katerina Koller
+        \n
+         05.08 | 15:30 | Grafitti Gallery
+        \n
+         Free entry
+        \n\n
+        Lecture on Sound, data and environment led by Thanasis Kaproulias a.k.a Novi_sad
+        \n
+         06.08 | 15:30 | Grafitti Gallery
+        \n
+         Free entry
+        \n\n
+        Lecture on Thingification of compositional process - emergence and autonomy of physical object in Western music led by Svetlana Maras
+        \n
+         06.08 | 17:00 | Grafitti Gallery
+        \n
+         Free entry
+        \n\n
+        RADAR for children
+        \n
+        Interactive sound workshop for children led by Svetlana Maras
+        \n
+         05.08 &amp; 06.08 | 10:00 - 13:00 | The Social Tea House
+        \n\n
+        RADAR Festival Beyond Music
+        \n\n
+         Varna, Frederic joliot curie  № 42
+        \n
+         radar-festival@mail.com
+        \n
+        www.radar-festival.eu
+        \n
+        phone: +359 887 54 47 52
+    </string>
+
+    <string name="cor_caroli">International regatta "Cor Caroli" 2018</string>
+    <string name="cor_caroli_calendar">Aug 12 - Aug 15</string>
+    <string name="cor_caroli_description">
+        Port Varna, 12 - 15 august 2018
+        \n\n
+        The Cor Caroli Regatta was founded in 1992 in memory of Captain Georgi Georgiev, the first Bulgarian to participate in the
+        OSTAR Transatlantic Regatta, in 1976. After that race, he was the first Bulgarian to sail around the world, leaving from
+        Havana on 20 December 1976, and finishing there too.
+        \n\n
+        The regatta is for keel yachts, and the prizes will be awarded on 15 August, Varna Day.
+    </string>
+
+    <string name="love_is_folly">17th Festival Of Red Cross And Health Films</string>
+    <string name="love_is_folly_calendar">Sep 01 - Sep 30</string>
+    <string name="love_is_folly_description">
+        The programme of the 25th edition of the International Film Festival "Love is Folly" is attached.
+        \n\n
+        The festival was established in 1993. The programme is a competitive one and features selected films produced the last two
+        years dealing with the subject of love. It is open every year on the last Friday.
+        \n\n
+        Venue: Festival and Congress Center
+        \n\n
+        Organizer: Festival and Congress Center; co-organizer: Varna Municipality
+        \n\n
+        For contacts: Rumyana Popova – tel. 608 446; mob. 0885 545 482; e-mail: fk@mail.orbitel.bg
+        \n
+        www.loveisfolly.org
+        \n\n
+        www.fccvarna.bg
+    </string>
+
+    <string name="red_cross_film_fest">17th Festival Of Red Cross And Health Films</string>
+    <string name="red_cross_film_fest_calendar">Sep 01 - Sep 30</string>
+    <string name="red_cross_film_fest_description">
+        XVII International Festival of Red Cross and Health Films
+        \n\n
+        AGGRESSION – HUMANITY – CINEMA
+        \n\n
+        The seventeenth edition of the International Festival of Red Cross and Health Films is organized in October 12th till 15th 2017
+        in Varna, Bulgaria, under the patronage of the vice president of the Republic of Bulgaria Ms. Iliana Iotova. The motto of this year’s
+        Festival is “Aggression – Humanity – Cinema”. The seventeenth edition of the International Festival of Red Cross and Health Films has
+        a competitive character, as the participating films will be competing in the following categories:
+        \n
+         1. Red Cross and Red Crescent films, revealing the activities of the Red Cross and Red Crescent National Societies all over the world;
+        \n
+         2. Documentary and health films covering the topical issues in the spheres of medicine, health care, ecology, migration, human
+        rights, disasters;
+        \n
+         3. Feature films presenting humanity issues.
+        \n\n
+        The competing films have been selected by a commission, chaired by prof. d-r Temelko Temelkov among the record-breaking number
+        of 1890 films from 107 countries submitted to take part in the Festival. The international jury to assess the films comprises
+        of Beppe Cino (Italy) – Chairman, and members: Armagan Pekkaya (Turkey), Carla Ronga (Italy), assos. Prof. Emanuela Mutafova (Bulgaria),
+        Pavel Vasev (Bulgaria).
+        \n
+         The competition film program is paralleled by a rich program comprising of more than 130 documentaries, short-length and feature
+        films from 47 countries. The special accent in the Festival is the Retro Films Panorama, screening Red Cross films, formerly awarded
+        in Festivals. Other special Festival sections are the panoramas from the festivals “Cinema on Palm” and “Turin Underground Festival”.
+        \n
+         The screening of the newest Bulgarian serial ”Stolen Life”, treating some medical themes, will be promoted and the public in
+        Varna will be able to meet with its favorite actors.
+        \n
+         The public will enjoy the Festival films program at a lot of screening locations - the conference hall in the Municipality of Varna;
+        the Medical University Varna; “Golden Varna” (“The Black Sheep” brewery), the Theater &amp; Music Production Center – Varna,
+        the Sanatorium &amp; Health Complex “Kamchia”.
+        \n
+         The Festival days will be rich in discussions, round tables, get-togethers, all of them devoted to the motto of the Festival:
+        “Aggression – Humanity – Cinema”. Eminent Bulgarian figures and names are the mentors to these events: Haralan Aleksandrov,
+        Toma Tomov, Emil Spahiyski, Valeri Naidenov, etc.
+        \n
+         The people from Varna and the guests of the Festival will be given the chance to meet with favorite Bulgarian actors, eminent
+        figures from the cinematography and the culture, supporters of the Festival. Foreign filmmakers show a growing interest to the
+        Festival; film directors from Sweden, Iraq, Cyprus, Greece, etc, are joining the 17th edition of the Festival.
+        \n
+         Part of the Festival program is the International Documentary Films Academy for Young Talent (October 10th-15th) to teach young
+        Red Cross and Red Crescent activists how to depict in documentaries the most important moments of their work. The mentor to a
+        special section of the Academy – the “Retro Atelier” is Mr. Grant Mitchell, Manager, Library and Archive Unit, International Federation
+        of Red Cross and Red Crescent Societies.
+        \n
+         The Festival as a forum allows the Red Cross and Red Crescent Societies delegations to exchange best practices and experience.
+        The 17th Festival is visited by representatives of the International Federation of Red Cross and Red Crescent Societies, the
+        International Committee of Red Cross and Red Crescent, Red Cross delegations from Romania, Italy, Mexico; Red Crescent delegations
+        from Turkey, Iraq, etc.
+        \n
+         The seventeenth edition of the International Festival of Red Cross and Health Films coincides with the final stage of the campaign
+        “Donate blood – get a ticket”. It is initiated by the Bulgarian Red Cross District Council, the medical University in Varna and the
+        Regional Centre of Transfusion Hematology.
+        \n\n
+        ---------
+        \n\n
+        Established in 1965 in the city of Varna as an international review of Red Cross and health films, the Festival became a world
+        event in the years to 1991. Organised by the Bulgarian Red Cross, under the auspices of the Federation of Red Cross and Red Crescent Societies,
+        the World Health Organisation and UNESCO the Festival gets an "A" category, the same as the festivals in Cannes, Venice, San Sebastian,
+        and others. Each year between 150 and 170 movies in healthcare, assistance and humanitarian idea from 50 to 70 countries participate
+        and give the local audiences the opportunity to meet with important names in the field of cinema, art, medicine and science.
+        \n\n
+        Varna Festival of Red Cross and Health films became not only film event but a meeting point for the exchange of experiences
+        between medical scientists worldwide, national and international health institutions, leaders of the International Red Cross
+        and Red Crescent, movie stars, directors, filmmakers, film critics, journalists, cinematography and broadcasters.
+        \n\n
+        www.redcrossfilmfest.org
+    </string>
+
+    <string name="golden_rose">Golden Rose Bulgarian Feature Film Fest</string>
+    <string name="golden_rose_calendar">Oct 01 - Oct 30</string>
+    <string name="golden_rose_description">
+        \n
+        The festival was established in 1961. Until 1974, except 1965 (when the Balkan Film Fest had its single edition), it was held
+        every year. The first edition presented feature films, documentaries, popular science and animated films. A selected jury awarded
+        prizes for the best film on contemporary subject, for the best screenplay, best directing, best cameraman, best actress and actor,
+        etc. In 1990 the festival had a single edition in Sofia, but in 1994 it returned again in Varna. Up to 1971 the Golden Rose was an
+        annual festival.
+        \n\n
+        Venue: Festival and Congress Center
+        \n\n
+        Main organizers: Ministry of Culture, National Film Center, BNT
+        \n\n
+        Organizer: Festival and Congress Center
+        \n\n
+        With the assistance of Varna Municipality
+        \n\n
+        For contacts: Irina Kanusheva – mob. 0899 94 30 04; e-mail: nfc@nfc.bg
+    </string>
+
+    <!--MUSEUMS DATA-->
+    <string name="archaeological_museum">Archaeological Museum</string>
+    <string name="archaeological_museum_address">41, "Maria Luiza" Blv.\n10AP - 5PM</string>
+    <string name="archaeological_museum_description">
+        The Beginning of Varna Archaeological Museum
+        \n\n
+        The inauguration of the Varna Archaeological Museum and its further development is closely connected with the names of the
+        two brothers Herman and Karel Škorpil, Czechs by origin, who came to help with the education and culture of their sister
+        Slavonic nation following the Liberation of Bulgaria from the Turkish Yoke. In 1894 they permanently settled in Varna. On 12
+        December 1901, a group of socially active figures and teachers established the Varna Archaeological Society that for decades
+        since has been the basic motivating power for interest and study in the history of Varna, Varna Region, and Northeast Bulgaria.
+        The inauguration of an archaeological museum was a task of prime importance for the Society. On June 11, 1906 the first exhibition
+        of the Museum was officially opened in a room of the Girls’ High School. Karel Škorpil was elected as director of the Museum and
+        remained in that post till his death in 1944.
+        \n\n
+        In 1945 the Varna Archaeological Museum was declared to be state property, and Mr. M. Mirtchev became the new director. In 1952
+        the exhibition was moved into aschool building on 5 Sheinovo St. specially granted to the Museum. Its rich collections and strong
+        traditions of research and collective work proved to be the helped for creating other museums in Varna, such as the Navy Museum,
+        the Ethnographic Museum, the Museum of the Bulgarian Revival, etc.
+        \n\n
+        Since 3 March 1983, the Museum has been accommodated in the present building – the only one offering complete possibilities for
+        exhibiting and preserving its riches. Throughout its existence of over 120 years, archaeologists members of the Varna Archaeological
+        Museum or employed at the Archaeological Museum have constantly carried out archaeological investigations and excavations on various
+        sites all over Northeast Bulgaria. The Varna Archaeological Museum now holds over 100,000 various objects of the region's past epochs.
+        \n\n
+
+    </string>
+
+    <string name="ethnographic_museum">Ethnographic Museum</string>
+    <string name="ethnographic_museum_address">22, "Panagyurishte" Str.\n10AP - 5PM</string>
+    <string name="ethnographic_museum_description">
+        One of the most interesting museums of the sea capital of Bulgaria, the Ethnographic museum, is situated in a house belonging to
+        the age of Revival, which was built around 1860. The ethnographic museum was established in 1974.
+        \n\n
+        The museum presents the rich variety in culture and style of life of the population in Varna region from the second half of the
+        19th and the beginning of the 20th century.
+        \n\n
+        Basic occupations of the population – agriculture and stock-breeding, apiculture, fishing, vine-culture, and the crafts –
+        cooperage, copper-making, furriery and homespun tailoring (manufacturing of a rough woolen fabric) are presented on the first
+        floor of the museum.
+        \n\n
+        One of the most interesting exponents in the museum is the small ancient plough called “dyolmedzha”, used for ploughing of earth
+        in the beginning of the 20th century. Vessels for storing of grain, as well as for preparing of bread are also exposed.
+        \n\n
+        Two labor customs, related to sowing and harvesting are also presented in the exposition.
+        \n\n
+        The exposition on the second floor presents traditional national costumes, which give an idea about the demographic look of the
+        Varna region. The people’s clothes in the settlements in the region differentiate with their great variety, due to the complex
+        migration processes, which happened in the first decades and the end of the 19th century. Traditional costumes of each of the
+        basic geographic groups in the region are presented here – local population and settlers from the Thracian region, Asia Minor and
+        Macedonia. The traditional costumes for the customs – Christmas, Petlyovden, Lazarovden is also presented.
+        \n\n
+        Here you can get familiar with basic elements of the typical Bulgarian wedding – taking of the bride from her home, a sleigh with gifts, etc.
+        \n\n
+        Information materials and souvenirs are sold in the museum.
+    </string>
+
+    <string name="varna_necropolis">Varna Necropolis</string>
+    <string name="varna_necropolis_address">53, "Usta Kolyu Ficheto" Str.\n9AP - 6PM</string>
+    <string name="varna_necropolis_description">
+        The so-called Varna Necropolis (Bulgarian: Варненски некропол) (also Varna Cemetery) is a burial site from 4569–4340 BC in
+        the western industrial zone of Varna (approximately half a kilometre from Lake Varna and 4 km from the city centre), internationally
+        considered one of the key archaeological sites in world prehistory. There were other necropoles dating from later Greek and Roman
+        periods around the ancient city.
+        \n\n
+        The oldest gold treasure in the world, dating from this period, was discovered at the site.
+        \n\n
+        The site was accidentally discovered in October 1972 by excavator operator Raycho Marinov. The first to value the significant historical
+        meaning was Dimitar Zlatarski, the creator of the Dalgopol Historical Museum. He was called by the locals to examine what they had
+        found earlier that day. He realized how important the finding was, so he contacted the Varna Historical Museum and, after signing
+        government papers, he handed over the research to the direction of Mihail Lazarov (1972–1976) and Ivan Ivanov (1972–1991). About
+        30% of the estimated necropolis area is still not excavated.
+        \n\n
+        A total of 294 graves have been found in the necropolis,[2] many containing sophisticated examples of metallurgy (gold and copper)
+        , pottery (about 600 pieces, including gold-painted ones), high-quality flint and obsidian blades, beads, and shells.
+        \n\n
+        The graves have been dated to 4569–4340 BC by radiocarbon dating in 2006 [3][2] and belong to the Chalcolithic Varna culture, which
+        is the local variant of the KGKVI.
+        \n\n
+        The artifacts can be seen at the Varna Archaeological Museum and at the National Historical Museum in Sofia. In 2006, some gold
+        objects were included in a major and broadly advertised national exhibition of antique gold treasures in both Sofia and Varna.
+        \n\n
+        The Varna gold started touring the world in 1973; it was included in "The Gold of the Thracian Horseman" national exhibition,
+        shown at many of the world's leading museums and exhibition venues in the 1970s. In 1982, it was exhibited for 7 months in Japan
+        as "The Oldest Gold in the World - The First European Civilization" with massive publicity, including two full length TV documentaries
+        . In the 1980s and 1990s it was also shown in Canada, Germany, France, Italy, and Israel, among others, and featured in a cover
+        story by the National Geographic Magazine.
+        \n\n
+        The Varna necropolis artifacts were shown for the first time in the United States in 1998 and 1999 as part of a major Bulgarian
+        archaeological exhibition, Thracians' Riches: Treasures from Bulgaria.[5] In 2009–2010, several artifacts were shown at the New
+        York University Institute for the Study of the Ancient World in a joint Bulgarian-Romanian-Moldovan exhibition entitled The Lost
+        World of Old Europe: The Danube Valley, 5000–3500 BC.
+    </string>
+
+    <string name="vladislav_varnenchik_museum">Park Museum "Vladislav Varnenchik"</string>
+    <string name="vladislav_varnenchik_museum_address">1, "Yan Huniyadi" Blv.\n9:30AP - 6:30PM</string>
+    <string name="vladislav_varnenchik_museum_description">
+        About us
+        \n\n
+        The park-museum „Vladislav Varnenchik” is a memorial complex, situated in the center of the battlefield, in the middle of an
+        unique park on an area of 30 decares.
+        \n\n
+        It is located at the western part of Varna at the place of the battlefield from 10.11.1444 , where the Polish- Hungarian King
+        Vladislav Yagello lost his life.
+        \n\n
+        In our museum exposition are displayed the unique in the country knight’s armour from that period.
+        \n\n
+        In the exposition every visitor has the possibility to see : \n
+        arms and equipment from XV century, found on the battlefield (helmets, cross-bows, swords, shields, spears, etc.) \n
+        paintings, sculptures, prints and other works of art, dedicated to the battle of Varna \n
+        flags, models, tickets and coats of arms \n
+        On our territory there can be seen two Thracian mounds where a Thracian tomb from IV c. BC is situated. \n
+        \n\n
+        In 1935 a token mausoleum of the perished 20-year-old King Vladislav Varnenchik is built above it.
+        \n\n
+        The museum is open to visitors in 1964 in honour of 520th anniversary from the battle of Varna between the Christian armies
+        of the Polish- Hungarian King Vladislav III Yagello and the Turkish armies under command of sultan Murad II.
+        \n\n
+        In 1964 is raised a monument of Yanosh Hunyadi - commander-in-chief of the King Vladislav’s army, Transylvanian leader, regent
+        of Hungaria from 1446.
+        \n\n
+        In 2004 the museum and the exposition are entirely modernized .
+        \n\n
+        The museum disposes with a hall for temporary exhibitions.\n
+        Among the interesting exhibitions, presented in it to this moment , they are :\n
+        “Historical medieval costumes”\n
+        Exhibition- Printing of Varna’s graphic artist Borislav Kuzmanov\n
+        \t\t“Poland in the epoch of the Yagellons ”(made in the Museum to the Polish army in Warsaw)\n
+        \t\tThe photo-exhibition “Knight’s skirmishes beside the fortress Varna” (photographed at the time of the recovery of the battle
+        of Varna on 18th May 2008)\n
+        \t\tThe international exhibition “Warriors of freedom”, dedicated to the 130th anniversary from the Liberation of Bulgaria, etc.\n
+        \t\tA special hall in the museum building is dedicated to the commander-in chief Yanosh Hunyadi.\n
+        \t\tIn the Exhibition hall Petar Dimkov are exposed personal belongings , photographs, orders and documents about the life and
+        the activity of “cosmic Bulgarian” whom today we call The Healer.\n
+        \t\tThe museum park with an area of about 30 decares is afforested with an unique vegetation and predisposes for a wonderful short
+        relaxation.\n
+        \n\n
+        \tThe park-museum “Vladislav Varnenchik” is a branch of the National Museum of Military history – Sofia.
+    </string>
+
+    <string name="naval_museum">Naval Museum</string>
+    <string name="naval_museum_address">2, "Primorski" Blv.\n10AP - 6PM</string>
+    <string name="naval_museum_description">
+        The first steps of the Maritime Museum were established as early as 1883 when the collection of old sea articles began in Ruse
+        by the officers in the Danube fleet. The first public exposition of the Maritime Museum was in Varna and was established on 20
+        May 1923 due to the public organization called the Bulgarian Public Maritime Agreement.
+        \n\n
+        In its expositions the museum presents maritime Bulgaria in its wholeness. The most important moments and processes of the naval
+        activities of the Bulgarians, the construction of the maritime fleet, the participation of our seamen in the war between Serbia
+        and Bulgaria (1885), the Balkan War (1912 – 1913), the First World War (1914 – 1918) and the Second World War (1939 – 1945) is
+        presented on a relatively small area of about 400 square meters.
+        \n\n
+        The museum visitors can see original ancient anchors and shop remnants, found on the bottom of the Black Sea; ship head decorations;
+        uniforms of seamen and officers. Desk models show the diversity of the ship collection of the naval and the commercial fleet in various
+        periods. Maritime flags, torpedoes, optical devices of lighthouses from the Bulgarian shores, medals, etc. are presented. Apparatuses
+        and instruments show the complexity of the specifics of naval professions such as navigation and shipbuilding.
+        \n\n
+        Contacts:
+        \n\n
+        2 “Primorski” blvd.
+        \n\n
+        Tel.: +359 52 731 523
+        www.museummaritime-bg.com
+        \n\n
+        Opening times:
+        \n\n
+        April- October: 10:00- 18:00, Closed on Mondays
+        \n\n
+        November- March: 09:30- 17:30, Closed on Sundays and Mondays
+    </string>
+
+    <string name="aquarium">Varna Aquarium</string>
+    <string name="aquarium_address">4, "Primorski" Blv.\n10AP - 5PM</string>
+    <string name="aquarium_description">
+        Hundreds of species of fishes including mollusks, actinides, crabs and periwinkles were featured in the aquarium. Various species
+        of fresh water river fish were also added to the aquarium. Being a novel attraction, the aquarium pulled large crowds from various
+        parts of the country. Children were especially attracted to the huge variety of exotic fish that they had never ever seen before.
+        Youngsters and adults alike were fascinated by the entertainment and educational value that the aquarium offered to its visitors.
+        The Varna aquarium and the Sea Garden itself became one of the most popular and frequently visited attractions in the city.\n
+        \n\n
+        Contacts:
+        \n
+        Address:Sea Garden, Primorski Blvd.4
+        \n
+        Tel: +359 632 066
+        \n
+        Opening times:
+        \n
+        June - September: 09:00 - 19:00; Without a day off
+        \n
+        October - May: 09:00 - 17:00; Day off: Monday
+        \n
+        director@ifrvarna.com
+        \n
+        www.ifrvarna.com
+    </string>
+
+    <string name="pupets_museum">Varna Aquarium</string>
+    <string name="pupets_museum_address">5 \"Sheynovo\" Str.\n10AP - 5PM</string>
+    <string name="pupets_museum_description">
+        Unique puppets made by Georgi Saravanov (founder of the theatre) welcome us first. After that their younger colleagues from
+        24 emblematic performances (1952-2002) join the exciting parade. Their medals and distinctions are put in three show cases.
+        The exposition twists the creative efforts of authors, directors, actors, artists, and constructors. Different techniques,
+        styles and trends in this free genre of applied art had been followed. Also the creative hand of leading Bulgarian stage designers
+        like the architect Ivan Tsonev, Maia Petrova, Lubomir Tsakev, Maia Kuzova, Anna Pulieva, Angel Nedelchev, Kosta Ortodoksov, Petia
+        Stoikova, Encho Avramov, Vasil Rokomanov etc.
+        \n
+        The tour is accompanied by an interesting lecture and it enriches the theatre culture of audience.
+        \n\n
+        Contacts:
+        \n\n
+        5 ”Sheynovo” Str.
+        \n
+        Tel: +359 608 172
+        \n
+        www.vnpuppet.com
+        \n\n
+        Working hours:
+        \n
+        June- September: Tuesday to Friday: 10:00 - 17:00; Saturday: 16:00 - 20:00; Closed on Sundays and Mondays
+        \n
+        October- May: Tuesday to Friday: 10:00 - 17:00; Saturday: 10:00 - 14:00; Closed on Sundays and Mondays
+    </string>
+
+    <string name="roman_baths">Roman Thermae</string>
+    <string name="roman_baths_address">"San Stefano" Str.\n10AP - 5PM</string>
+    <string name="roman_baths_description">
+        At the end of the 2nd c. A.D. thermal baths were built on a territory of 7.000 sq. m. and are the biggest on the Balkan Peninsula
+        . They became the centre of the public life in the town. Roman Thermal Baths are the largest ancient building discovered in
+        Bulgaria so far. The comparatively well – preserved walls outline an imposing building. The plan of the building is almost
+        symmetrical. The part uncovered includes all the principal premises of the baths. Visitors entered it through two entrances on
+        the northern facade. Wide stairs led to the antechamber, the purpose of which was to guard the dressing rooms from cold air. The
+        premises were faced with marble slabs. Multicolored mosaics had been used for the decoration of the marble walls.
+        \n
+        The richness of the ornamentation make of these thermae a remarkable monument of ancient architecture in the Bulgarian lands.
+        \n\n
+        Contacts:
+        \n\n
+        13, San Stefano Str.,
+        \n
+        Tel: 052 60 00 59
+        \n
+        www.archaeo.museumvarna.com
+        \n\n
+        Opening times:
+        \n\n
+        November- April: 10.00 – 17.00; Closed on Sundays and Mondays
+        \n
+        May- October: 09.00 – 19.00; Without a day off
+        \n\n
+        Prices:
+        \n\n
+        Adults – 5.00 leva, students - 2.00 leva
+    </string>
+
+    <string name="observatory_museum">Astronomical Observatory and Planetarium Copernicus</string>
+    <string name="observatory_museum_address">9002, "Primorski" Blv.\n10AP - 5PM</string>
+    <string name="observatory_museum_description">
+        The blast - off to the first artificial satellite of the Earth, provoke a huge interest in Bulgaria and this is the main reason
+        for the formation of lots of clubs, devoted to the space. The enthusiasm was the reason to be established in the town of Varna
+        in 1960 the first astronaut and astronomic club. Only a year later to the club was given the old Summer Theater in the central
+        part of the sea garden in Varna. On 22 th. of May 1968 was opened the first astronomical complex in Bulgaria, named after Nikolai
+        Kopernik. It consists of astronomical observatory, planetarium and a tower with Phuko’s pendulum.
+        \n
+        The main scientific reason is the observing and the shooting of artificial satellites on Earth, another reason is the education
+        in this discipline. There is a monument of Kopernik in front of the planetarium’s entrance, made by professor L. Dalchev and P.
+        Atanasov.
+        \n
+         There are two spinning coupons on the third floor of the observatory, which were equipped with refractor 80/1200 mm at the beginning
+        and a bigger telescope Kasegren 150/2250 mm.
+        \n
+         The observatory is the first of this type in Bulgaria. The diameter of the coupon is 10,5 m. It is managed from the lector’s deck
+        and can project over the coupon 5500 stars. In addition there are searchlights used for demonstration of the moving planets through
+        the stars. There is also a special device which shows the solar system from 5-milliard km. From the beginning till 1998, the planetarium
+        was visited from over 800 000 of people.
+        \n
+         In the planetarium’s tower was assembled the Phuko’s pendulum. It is unique at the Balkan Peninsula and is the only prove that
+        the Earth turns on its axis. In the premise under it, there is a small room where the visitors can observe the swing of the pendulum
+        . In 1998 the Varna municipality took à decision to reconstruct the planetarium building.
+        \n
+         The renewed building was opened on 15 th August 2002. The origin architecture was preserved, but now it is more modern, thanks
+        to the architecture G. Savakov. For better vision adaptation there is a figural wall and the foyer dimly lightened, before entering
+        into the hall. There are computer hall, library and lecture halls in the premises under the coupon. The decorative lights in the
+        night convert the observatory into one of the accents in the sea garden.
+        \n\n
+        Opening times:
+        \n\n
+         April-May: Tue, Thu, Sat:from 5 p.m.
+        \n
+         June: Mon-Sat: from 5 p.m.
+        \n
+         July-August: Mon-Sat: from 5 p.m.and from 7 m.p.
+        \n
+         September: Tue, Thu, Sat:from 5 p.m.
+        \n
+         October: Thu, Sat:from 5 p.m.
+        \n
+         November-March: Sat:from 5 p.m.
+        \n\n
+        Contacts:
+        \n\n
+         Address:Sea Garden, Primorski park №4
+        \n
+         tel: +359 52 684 444
+        \n
+         planetarium.varna@gmail.com
+        \n
+        www.astro-varna.com
+    </string>
+
+    <!--FUN DATA-->
+    <string name="volley">FIVB Volleyball Men\'s World Championship</string>
+    <string name="volley_calendar">Sep 10 - Sep 30</string>
+    <string name="volley_description">
+        10 - 30 September 2018, Palace of Culture and Sports – Varna
+        \n\n
+        Men\'s World Cup, which will be co-hosted by Bulgaria and Italy, is the largest sports forum, which our country will welcome.
+        \n
+        2018 FIVB Volleyball Men\'s World Championship will take place from 10 to 30 September 2018 in Bulgaria and Italy. For the first time the event will be hosted by two countries.
+        \n
+        24 countries, divided into 4 groups of 6 teams, will take part in the Championship. In Bulgaria, the first phase matches will be divided in two groups and will be played at the sports halls of Varna and Ruse. The first 4 teams will advance to the second phase in Sofia and Varna, the rest will have to go back home. A total of 60 matches will be played during the qualifying stage of the tournament.
+        www.italy-bulgaria2018.fivb.com
+    </string>
+
+    <string name="na_tamno">Na Tamno</string>
+    <string name="na_tamno_address">2, "Stefan Stambolov" Str.\nwww.natamno.com</string>
+    <string name="na_tamno_description">
+        "In the Dark" - the largest retail network for an alternative lifestyle in Bulgaria. The brand was established in 1994 as a successor to a series of musical events under the motto "in the dark" as of 2001 is officially registered in the Patent Office of Bulgaria. Founder and creator of the brand Nikolay Todorov - Nick.
+        \n\n
+        Origins:
+        \n\n
+        The first store opened in 1994 in Varna. In response to the growing needs of alternative teenagers at the time, "in the dark" creates a unique blend of products, offering in stores, organizing concerts, parties, shows, festivals. Creating and developing the relationship between musical styles, fashion, lifestyle of today\'s youth, "In the Dark" became a symbol of urban culture. Today, more than 21 years we work with zeal and desire for new opportunities, new friends, reaching new horizons. The company\'s team consists of young people, bearing in our hearts the ideas of our messages!
+        \n\n
+        mission:
+        \n\n
+        Our mission over the years has focused on the full satisfaction of the interests of young people in Bulgaria, adopted the alternative lifestyle and entertainment as its motto. We have pioneered new ideas and affirm the form of products, a comprehensive vision and concept of how to be different!
+        \n\n
+        guidelines:
+        \n\n
+        FASHION
+        \n\n
+        Retailer "in the dark" developing its copyright collections of clothing and accessories. Brands NTMN and Mish Mash are part of the company\'s portfolio. The collections include the latest designs pants, overalls, shirts, sweaters, parkas, shirts, sweatshirts and more. Most of the clothes are made entirely in their own fashion studios in Bulgaria.
+        \n\n
+        TRADE
+        \n\n
+        Our commercial activities are carried out through shops "in the dark" - retail sales, both our offices in Varna and Sofia - wholesale and the Internet through www.natamno.com. "In the Dark" works closely with other international retail chains in Europe.
+        \n\n
+        The first store was established in 1994 in Varna. Consistent shops open in Dobrich, Ruse, Pleven, Sofia, Veliko Tarnovo, Stara Zagora, Plovdiv, Burgas and Blagoevgrad. In the shops except clothes sell complementary products and accessories aimed at creating a complete vision of an alternative youth aged 15 to 35 years. The products are carefully selected by commercial managers of the company, many of them appearing for the first time on the Bulgarian market namely commercially available "in the dark". The company operates as the exclusive representative for Bulgaria of the following brands: "Montana Colors" - Spain - materials for graffiti, On The Run - Germany- markers graffiti, GROG - Italy, materials for graffiti, STARGAZER - England, hair cosmetics. The network "in the dark" spread more: DARKMOON products - jewelry and body jewelry steel MANIA - sports shoes. A special place in stores is paid to license goods and items with musical direction - T-shirts, bags, patches, hats, belts and other accessories with images of current bands and performers.
+        \n\n
+        SERVICES
+        \n\n
+        Tattoos and body piercing - as part of an informal culture in Bulgaria, "in the dark" is the largest chain of professional studios tattoos and body piercing in the country. A team of young and educated professionals is a guarantee of quality service and friendliness. Tattoo artists of "blind" honors with awards in national Tattoo Fest. Studios company operating in Varna, Dobrich, Pleven, Veliko Tarnovo, Sofia, Plovdiv, Blagoevgrad.
+        \n\n
+        Tickets for concerts · shops "in the dark" is the only national network for distribution of tickets for concerts and other events, offering the services of four national operator - TicketPro, Ticket Portal, Eventim and Ticket Logic.
+        \n\n
+        ENTERTAINMENT - "In the Dark" organize, sponsor, support and participate in a number of music, sports, alternative and informal events and festivals to promote the ideas enshrined in our overall concept. Some of the events held with the participation and assistance of our "SPIRIT OF BURGAS" - International Music Festival, National graffiti festival Beglika fest, other national and regional events.
+        \n\n
+        MEDIA - "In the Dark" is a registered trademark in a separate class for media broadcasts, sections and parts thereof. In this respect over the years "in the dark" part, producing and implementing television, radio and other media events.
+        \n\n
+        INTERNET - "In the Dark" develops, maintains and develops its own site by 2004. The functions of virtual media in three directions - information, entertainment and advertising. Parallel form of marketing and advertising is an Internet store "in the dark". With the maintenance and development of virtual media deals design team of the company.
+        \n\n
+        SOCIAL RESPONSIBILITY
+        \n\n
+        In line with the rules of procedure within the European Union, we strive to comply with all requirements for organic production and trade. The majority of products offered in chain stores "in the dark" were produced in Bulgaria or EU countries. Thus paying wages, taxes and any outstanding charges here in Bulgaria, we are confident that we support the European and national economies.
+    </string>
+
+    <string name="three_lions_pub">Three Lions Pub</string>
+    <string name="three_lions_address">41, \"Knyaz Aleksander Batenberg\" Str.</string>
+    <string name="three_lions_description">
+        Probably the Best pub in Bulgaria
+        \n\n
+        If football is your religion this is definitely your place. Three Lions Pub was established on 15th December, 2000 as the first football pub in the most beautiful city in Bulgaria - Varna. Soon after that it\'s been recognized as the "Little British Embassy". During all these years the Three Lions grew up and became a quality mark for all the fans of the English football in Varna and not only.. By the end of 2007 the bar moved on a new address and is now on Slaveikov square 1, opposite Marine Administration and opened again.
+        \n
+        In the beginning of August 2015 the 3LP changed again its location to "Knyaz Alexander Battenberg" 41 (into the building of Darik Radio)
+        \n
+        Be our guests!
+    </string>
+
+    <string name="cubo">Cubo</string>
+    <string name="cubo_address">9000, \"Primorski\" Blv.</string>
+    <string name="cubo_description">
+        Address: 9000 Primorski, Varna
+        Hours: Open ⋅ Closes 4AM
+        Phone: 089 842 5232
+    </string>
+
+    <string name="menthol">Menthol</string>
+    <string name="menthol_address">9000, \"Primorski\" Blv.</string>
+    <string name="menthol_description">
+        Address: ul. "Nikola Mihaylovski" 20, 9002 Varna Center, Varna\n
+        Hours: Open ⋅ Closes 3AM\n
+        Phone: 089 912 8996\n
+    </string>
+
+    <string name="sundogs">Sundogs</string>
+    <string name="sundogs_address">1, \"Mihail Koloni\" Str.</string>
+    <string name="sundogs_description">
+        Address: ul. "Mihail Koloni" 1, 9000 Varna Center, Varna\n
+        Hours: Open ⋅ Closes 12AM\n
+        Phone: 098 893 6630\n
+    </string>
+
+    <string name="indian_bar">Indian Bar</string>
+    <string name="indian_bar_address">22, \"Petar Parchevich\" Str.</string>
+    <string name="indian_bar_description">
+        Address: ul. "Mihail Koloni" 1, 9000 Varna Center, Varna\n
+        Hours: Open ⋅ Closes 12AM\n
+        Phone: 098 893 6630\n
+    </string>
+
+    <string name="the_social_teahouse">The Social Teahouse</string>
+    <string name="the_social_teahouse_address">53, \"Preslav\" Str.</string>
+    <string name="the_social_teahouse_description">
+        The Tea House is a social entreprise, alternative space where you can take part in various events and experience different tastes.Space for meetings &amp; tea.
+        \n\n
+        Address: ul. "Preslav" 53, 9000 Varna Center, Varna\n
+        Hours: Open ⋅ Closes 10PM\n
+        Phone: 089 686 4709\n
+    </string>
+
+    <string name="rubic">Rubik Art Center</string>
+    <string name="rubic_address">5, \"Primorski\" Blv.</string>
+    <string name="rubic_description">
+        Address: bul. "Primorski" 5, 9000 Tsentralna Zhp Gara, Varna\n
+        Phone: 089 788 2135
+    </string>
+
+    <string name="dockers_dlub">Dockers Club</string>
+    <string name="dockers_dlub_address">27, \"Primorski\" Blv.</string>
+    <string name="dockers_dlub_description">
+        Address: bul. "Primorski" 27, 9000 Pristanishten kompleks, Varna\n
+        Hours: Open ⋅ Closes 12AM\n
+        Phone: 088 700 5007\n
+    </string>
+
     <string name="description">Description:</string>
 </resources>

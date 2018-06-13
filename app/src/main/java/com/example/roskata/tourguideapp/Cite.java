@@ -53,16 +53,4 @@ public class Cite {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
-
-    /**
-     * Returns the string representation of the {@link Cite} object.
-     */
-    @Override
-    public String toString() {
-        return "Cite{" +
-                "mImageResourceId" + mImageResourceId +
-                "mCiteLabel" + mCiteLabel +
-                "mCiteDescription" + mCiteDescription +
-                "}";
-    }
 }

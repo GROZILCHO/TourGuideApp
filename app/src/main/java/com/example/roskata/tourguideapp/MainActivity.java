@@ -44,16 +44,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onPageSelected(int position) {
                 if(position == 0){
-                    toolbarText.setText("Accommodation");
+                    toolbarText.setText(R.string.accommodation_label);
                     toolbar.setBackgroundResource(R.drawable.accommodation);
                 } else if (position == 1) {
-                    toolbarText.setText("Culture");
+                    toolbarText.setText(R.string.culture_label);
                     toolbar.setBackgroundResource(R.drawable.culture);
                 } else if (position == 2) {
-                    toolbarText.setText("Museums");
+                    toolbarText.setText(R.string.museums_label);
                     toolbar.setBackgroundResource(R.drawable.museums);
                 } else {
-                    toolbarText.setText("Fun");
+                    toolbarText.setText(R.string.fun_label);
                     toolbar.setBackgroundResource(R.drawable.fun);
                 }
             }

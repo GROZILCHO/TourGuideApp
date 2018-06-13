@@ -41,17 +41,17 @@ public class CultureFragment extends Fragment {
 //        headerText.setText("Culture");
 
         final ArrayList<Cite> cites = new ArrayList<Cite>();
-        cites.add(new Cite(R.drawable.varna_summer, "\"Varna Summer\" International Music Festival", "Jun 24 - Sep 20"));
-        cites.add(new Cite(R.drawable.theatral_fest, "International Theatre Festival \"Varna Summer\"", "Jun 24 - Sep 20"));
-        cites.add(new Cite(R.drawable.ballet, "28th International Ballet Competition", "Jul 15 - Jul 30"));
-        cites.add(new Cite(R.drawable.jazz, "26th INTERNATIONAL JAZZ FESTIVAL", "Jul 26 - Jul 29"));
-        cites.add(new Cite(R.drawable.folk, "International Folklore Festival \"Varna Summer\"", "Jul 29 - Aug 02"));
-        cites.add(new Cite(R.drawable.print, "XIX International Print Biennial", "Jul 01 - Sep 30"));
-        cites.add(new Cite(R.drawable.radar, "RADAR Festival", "Aug 10 - Aug 13"));
-        cites.add(new Cite(R.drawable.cor_caroli, "International regatta \"Cor Caroli\" 2018", "Aug 12 - Aug 15"));
-        cites.add(new Cite(R.drawable.love, "Love is folly - International Film Festival", "Aug 24 - Sep 01"));
-        cites.add(new Cite(R.drawable.red_cross, "17th Festival Of Red Cross And Health Films", "Sep 01 - Sep 30"));
-        cites.add(new Cite(R.drawable.golden_rose, "Golden Rose Bulgarian Feature Film Fest", "Oct 01 - Oct 30"));
+        cites.add(new Cite(R.drawable.varna_summer, getString(R.string.varna_summer_int_music_fest), getString(R.string.varna_summer_int_music_fest_calendar)));
+        cites.add(new Cite(R.drawable.theatral_fest, getString(R.string.int_theater_fest), getString(R.string.int_theater_fest_calendar)));
+        cites.add(new Cite(R.drawable.ballet, getString(R.string.int_ballet_fest), getString(R.string.int_ballet_fest)));
+        cites.add(new Cite(R.drawable.jazz, getString(R.string.int_jazz_fest), getString(R.string.int_jazz_fest_calendar)));
+        cites.add(new Cite(R.drawable.folk, getString(R.string.int_folk_fest), getString(R.string.int_folk_fest_calendar)));
+        cites.add(new Cite(R.drawable.print, getString(R.string.print_fest), getString(R.string.print_calendar)));
+        cites.add(new Cite(R.drawable.radar, getString(R.string.radar_fest), getString(R.string.radar_fest_calendar)));
+        cites.add(new Cite(R.drawable.cor_caroli, getString(R.string.cor_caroli), getString(R.string.cor_caroli_calendar)));
+        cites.add(new Cite(R.drawable.love, getString(R.string.love_is_folly), getString(R.string.love_is_folly_calendar)));
+        cites.add(new Cite(R.drawable.red_cross, getString(R.string.red_cross_film_fest), getString(R.string.red_cross_film_fest_calendar)));
+        cites.add(new Cite(R.drawable.golden_rose, getString(R.string.golden_rose), getString(R.string.golden_rose_calendar)));
 
 
         /// Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
@@ -70,7 +70,7 @@ public class CultureFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 Intent intent = new Intent(getActivity(), SingleItemActivity.class);
-                intent.putExtra("CiteName", ((Cite) listView.getItemAtPosition(position)).getCiteLabel());
+                intent.putExtra(getString(R.string.cite_name_label), ((Cite) listView.getItemAtPosition(position)).getCiteLabel());
                 startActivity(intent);
             }
         });

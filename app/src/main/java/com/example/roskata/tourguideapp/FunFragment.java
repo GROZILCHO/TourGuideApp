@@ -38,16 +38,16 @@ public class FunFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.cite_list, container, false);
 
         final ArrayList<Cite> cites = new ArrayList<Cite>();
-        cites.add(new Cite(R.drawable.volley, "FIVB Volleyball Men's World Championship", "Sep 10 - Sep 30"));
-        cites.add(new Cite(R.drawable.na_tamno, "Na Tamno", "2, \"Stefan Stambolov\" Str.\nwww.natamno.com"));
-        cites.add(new Cite(R.drawable.three_lions, "Three Lions Pub", "41,  \"Knyaz Aleksander Batenberg\" Str."));
-        cites.add(new Cite(R.drawable.cubo, "Cubo", "9000, \"Primorski\" Blv."));
-        cites.add(new Cite(R.drawable.menthol, "Menthol", "9000, \"Primorski\" Blv."));
-        cites.add(new Cite(R.drawable.sundogs, "Sundogs", "1, \"Mihail Koloni\" Str."));
-        cites.add(new Cite(R.drawable.indian, "Indian Bar", "22, \"Petar Parchevich\" Str."));
-        cites.add(new Cite(R.drawable.social_teahouse, "The Social Teahouse", "53, \"Preslav\" Str."));
-        cites.add(new Cite(R.drawable.rubic, "Rubik Art Center", "5, \"Primorski\" Blv."));
-        cites.add(new Cite(R.drawable.dockers, "Dockers Club", "27, \"Primorski\" Blv."));
+        cites.add(new Cite(R.drawable.volley, getString(R.string.volley), getString(R.string.volley_calendar)));
+        cites.add(new Cite(R.drawable.na_tamno, getString(R.string.na_tamno), getString(R.string.na_tamno_address)));
+        cites.add(new Cite(R.drawable.three_lions, getString(R.string.three_lions_pub), getString(R.string.three_lions_address)));
+        cites.add(new Cite(R.drawable.cubo, getString(R.string.cubo), getString(R.string.cubo_address)));
+        cites.add(new Cite(R.drawable.menthol, getString(R.string.menthol), getString(R.string.menthol_address)));
+        cites.add(new Cite(R.drawable.sundogs, getString(R.string.sundogs), getString(R.string.sundogs_address)));
+        cites.add(new Cite(R.drawable.indian, getString(R.string.indian_bar), getString(R.string.indian_bar_address)));
+        cites.add(new Cite(R.drawable.social_teahouse, getString(R.string.the_social_teahouse), getString(R.string.the_social_teahouse_address)));
+        cites.add(new Cite(R.drawable.rubic, getString(R.string.rubik), getString(R.string.rubik_address)));
+        cites.add(new Cite(R.drawable.dockers, getString(R.string.dockers_club), getString(R.string.dockers_club)));
 
 
 
@@ -67,7 +67,7 @@ public class FunFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 Intent intent = new Intent(getActivity(), SingleItemActivity.class);
-                intent.putExtra("CiteName", ((Cite) listView.getItemAtPosition(position)).getCiteLabel());
+                intent.putExtra(getString(R.string.cite_name_label), ((Cite) listView.getItemAtPosition(position)).getCiteLabel());
                 startActivity(intent);
             }
         });

@@ -859,9 +859,9 @@
         www.ifrvarna.com
     </string>
 
-    <string name="pupets_museum">Varna Aquarium</string>
-    <string name="pupets_museum_address">5 \"Sheynovo\" Str.\n10AP - 5PM</string>
-    <string name="pupets_museum_description">
+    <string name="puppets_museum">Varna Aquarium</string>
+    <string name="puppets_museum_address">5 \"Sheynovo\" Str.\n10AP - 5PM</string>
+    <string name="puppets_museum_description">
         Unique puppets made by Georgi Saravanov (founder of the theatre) welcome us first. After that their younger colleagues from
         24 emblematic performances (1952-2002) join the exciting parade. Their medals and distinctions are put in three show cases.
         The exposition twists the creative efforts of authors, directors, actors, artists, and constructors. Different techniques,
@@ -1082,16 +1082,16 @@
         Phone: 089 686 4709\n
     </string>
 
-    <string name="rubic">Rubik Art Center</string>
-    <string name="rubic_address">5, \"Primorski\" Blv.</string>
-    <string name="rubic_description">
+    <string name="rubik">Rubik Art Center</string>
+    <string name="rubik_address">5, \"Primorski\" Blv.</string>
+    <string name="rubik_description">
         Address: bul. "Primorski" 5, 9000 Tsentralna Zhp Gara, Varna\n
         Phone: 089 788 2135
     </string>
 
-    <string name="dockers_dlub">Dockers Club</string>
-    <string name="dockers_dlub_address">27, \"Primorski\" Blv.</string>
-    <string name="dockers_dlub_description">
+    <string name="dockers_club">Dockers Club</string>
+    <string name="dockers_club_address">27, \"Primorski\" Blv.</string>
+    <string name="dockers_club_description">
         Address: bul. "Primorski" 27, 9000 Pristanishten kompleks, Varna\n
         Hours: Open ⋅ Closes 12AM\n
         Phone: 088 700 5007\n
@@ -1100,4 +1100,10 @@
     <string name="description">Description:</string>
     <string name="welcome_to_varna">Welcome to Varna!</string>
     <string name="address">address</string>
+    <string name="cite_name">CiteName</string>
+    <string name="accommodation_label">Accommodation</string>
+    <string name="culture_label">Culture</string>
+    <string name="museums_label">Museums</string>
+    <string name="fun_label">Fun</string>
+    <string name="cite_name_label">CiteName</string>
 </resources>

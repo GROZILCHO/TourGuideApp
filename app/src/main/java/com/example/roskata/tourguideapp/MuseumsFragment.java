@@ -42,15 +42,15 @@ public class MuseumsFragment extends Fragment {
 //        headerText.setText("Nature");
 
         final ArrayList<Cite> cites = new ArrayList<Cite>();
-        cites.add(new Cite(R.drawable.archeological, "Archaeological Museum", "41, \"Maria Luiza\" Blv.\n10AP - 5PM"));
-        cites.add(new Cite(R.drawable.ethnographical, "Ethnographic Museum", "22, \"Panagyurishte\" Str.\n10AP - 5PM"));
-        cites.add(new Cite(R.drawable.necropolis, "Varna Necropolis", "53, \"Usta Kolyu Ficheto\" Str.\n9AP - 6PM"));
-        cites.add(new Cite(R.drawable.varnenchik, "Park Museum \"Vladislav Varnenchik\"", "1, \"Yan Huniyadi\" Blv.\n9:30AP - 6:30PM"));
-        cites.add(new Cite(R.drawable.naval, "Naval Museum", "2, \"Primorski\" Blv.\n10AP - 6PM"));
-        cites.add(new Cite(R.drawable.aquarium, "Varna Aquarium", "4, \"Primorski\" Blv.\n10AP - 5PM"));
-        cites.add(new Cite(R.drawable.puppets, "Varna Puppet Museum", "5, \"Sheinovo\" Str.\n10AP - 5PM"));
-        cites.add(new Cite(R.drawable.roman_baths, "Roman Thermae", "\"San Stefano\" Str.\n10AP - 5PM"));
-        cites.add(new Cite(R.drawable.observatory, "Astronomical Observatory and Planetarium Copernicus", "9002, \"Primorski\" Blv.\n10AP - 5PM"));
+        cites.add(new Cite(R.drawable.archeological, getString(R.string.archaeological_museum), getString(R.string.archaeological_museum_address)));
+        cites.add(new Cite(R.drawable.ethnographical, getString(R.string.ethnographic_museum), getString(R.string.ethnographic_museum_address)));
+        cites.add(new Cite(R.drawable.necropolis, getString(R.string.varna_necropolis), getString(R.string.varna_necropolis_address)));
+        cites.add(new Cite(R.drawable.varnenchik, getString(R.string.vladislav_varnenchik_museum),getString(R.string.vladislav_varnenchik_museum_address)));
+        cites.add(new Cite(R.drawable.naval, getString(R.string.naval_museum), getString(R.string.naval_museum_address)));
+        cites.add(new Cite(R.drawable.aquarium, getString(R.string.aquarium), getString(R.string.aquarium_address)));
+        cites.add(new Cite(R.drawable.puppets, getString(R.string.puppets_museum), getString(R.string.puppets_museum_address)));
+        cites.add(new Cite(R.drawable.roman_baths, getString(R.string.roman_baths),getString(R.string.roman_baths_address)));
+        cites.add(new Cite(R.drawable.observatory, getString(R.string.observatory_museum), getString(R.string.observatory_museum_address)));
 
 
 
@@ -70,7 +70,7 @@ public class MuseumsFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 Intent intent = new Intent(getActivity(), SingleItemActivity.class);
-                intent.putExtra("CiteName", ((Cite) listView.getItemAtPosition(position)).getCiteLabel());
+                intent.putExtra(getString(R.string.cite_name_label), ((Cite) listView.getItemAtPosition(position)).getCiteLabel());
                 startActivity(intent);
             }
         });

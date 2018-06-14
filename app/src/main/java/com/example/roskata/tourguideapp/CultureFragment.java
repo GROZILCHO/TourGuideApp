@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -18,9 +17,6 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class CultureFragment extends Fragment {
-
-    private TextView headerText;
-
     public CultureFragment() {
         // Required empty public constructor
     }
@@ -40,7 +36,7 @@ public class CultureFragment extends Fragment {
 //        headerText = (TextView) getActivity().findViewById(R.id.toolbar_text);
 //        headerText.setText("Culture");
 
-        final ArrayList<Cite> cites = new ArrayList<Cite>();
+        final ArrayList<Cite> cites = new ArrayList<>();
         cites.add(new Cite(R.drawable.varna_summer, getString(R.string.varna_summer_int_music_fest), getString(R.string.varna_summer_int_music_fest_calendar)));
         cites.add(new Cite(R.drawable.theatral_fest, getString(R.string.int_theater_fest), getString(R.string.int_theater_fest_calendar)));
         cites.add(new Cite(R.drawable.ballet, getString(R.string.int_ballet_fest), getString(R.string.int_ballet_fest)));
@@ -64,7 +60,7 @@ public class CultureFragment extends Fragment {
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // activity_colors.xml layout file.
-        final ListView listView = (ListView) rootView.findViewById(R.id.list);
+        final ListView listView = rootView.findViewById(R.id.list);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

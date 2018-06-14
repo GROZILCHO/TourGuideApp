@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -18,8 +17,6 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class FunFragment extends Fragment {
-
-    private TextView headerText;
 
     public FunFragment() {
         // Required empty public constructor
@@ -37,7 +34,7 @@ public class FunFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.cite_list, container, false);
 
-        final ArrayList<Cite> cites = new ArrayList<Cite>();
+        final ArrayList<Cite> cites = new ArrayList<>();
         cites.add(new Cite(R.drawable.volley, getString(R.string.volley), getString(R.string.volley_calendar)));
         cites.add(new Cite(R.drawable.na_tamno, getString(R.string.na_tamno), getString(R.string.na_tamno_address)));
         cites.add(new Cite(R.drawable.three_lions, getString(R.string.three_lions_pub), getString(R.string.three_lions_address)));
@@ -61,7 +58,7 @@ public class FunFragment extends Fragment {
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // activity_colors.xml layout file.
-        final ListView listView = (ListView) rootView.findViewById(R.id.list);
+        final ListView listView = rootView.findViewById(R.id.list);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

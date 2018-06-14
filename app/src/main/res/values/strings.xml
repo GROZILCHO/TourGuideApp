@@ -1106,4 +1106,7 @@
     <string name="museums_label">Museums</string>
     <string name="fun_label">Fun</string>
     <string name="cite_name_label">CiteName</string>
+    <string name="label">Label</string>
+    <string name="adress">Address</string>
+    <string name="listview_go_icon">go_icon</string>
 </resources>

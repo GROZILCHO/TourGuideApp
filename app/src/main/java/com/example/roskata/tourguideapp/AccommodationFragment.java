@@ -3,17 +3,13 @@ package com.example.roskata.tourguideapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toolbar;
 
 import java.util.ArrayList;
 
@@ -22,10 +18,6 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class AccommodationFragment extends Fragment {
-
-    private TextView headerText;
-
-    private android.support.v7.widget.Toolbar toolbar;
 
     public AccommodationFragment() {
         // Required empty public constructor
@@ -39,16 +31,19 @@ public class AccommodationFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        TextView headerText;
+        android.support.v7.widget.Toolbar toolbar;
+
         // Inflate the layout for this fragmentx
         View rootView = inflater.inflate(R.layout.cite_list, container, false);
 
-        toolbar = (android.support.v7.widget.Toolbar) getActivity().findViewById(R.id.toolbar);
+        toolbar = getActivity().findViewById(R.id.toolbar);
         toolbar.setBackgroundResource(R.drawable.accommodation);
 
-        headerText = (TextView) getActivity().findViewById(R.id.toolbar_text);
+        headerText = getActivity().findViewById(R.id.toolbar_text);
         headerText.setText(R.string.accommodation_label);
 
-        final ArrayList<Cite> cites = new ArrayList<Cite>();
+        final ArrayList<Cite> cites = new ArrayList<>();
         cites.add(new Cite(R.drawable.yohohostel, getString(R.string.yo_ho_hostel), getString(R.string.yoho_address)));
         cites.add(new Cite(R.drawable.del_mare, getString(R.string.del_mar_hostel), getString(R.string.del_mar_address)));
         cites.add(new Cite(R.drawable.x_hostel, getString(R.string.xhostel_hostel), getString(R.string.xhostel_address)));
@@ -65,7 +60,7 @@ public class AccommodationFragment extends Fragment {
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // activity_colors.xml layout file.
-        final ListView listView = (ListView) rootView.findViewById(R.id.list);
+        final ListView listView = rootView.findViewById(R.id.list);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

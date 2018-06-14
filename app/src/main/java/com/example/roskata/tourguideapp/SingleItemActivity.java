@@ -5,7 +5,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -20,11 +19,11 @@ public class SingleItemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.single_item_activity);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbarText = (TextView) findViewById(R.id.toolbar_text);
-        singleAddressView = (TextView) findViewById(R.id.single_address_view);
-        imageView = (ImageView) findViewById(R.id.imageView);
-        itemDescription = (TextView) findViewById(R.id.textView_item_description);
+        toolbar = findViewById(R.id.toolbar);
+        toolbarText = findViewById(R.id.toolbar_text);
+        singleAddressView = findViewById(R.id.single_address_view);
+        imageView = findViewById(R.id.imageView);
+        itemDescription = findViewById(R.id.textView_item_description);
 
         Bundle bundle = getIntent().getExtras();
         if (bundle != null){
@@ -143,9 +142,9 @@ public class SingleItemActivity extends AppCompatActivity {
                 itemDescription.setText(R.string.aquarium_description);
             } else if (toolbarText.getText().toString().equals(getString(R.string.puppets_museum))){
                 toolbar.setBackgroundResource(R.drawable.museums);
-                singleAddressView.setText(R.string.pupets_museum_address);
+                singleAddressView.setText(R.string.puppets_museum_address);
                 imageView.setImageDrawable(ContextCompat.getDrawable(SingleItemActivity.this, R.drawable.puppets));
-                itemDescription.setText(R.string.pupets_museum_description);
+                itemDescription.setText(R.string.puppets_museum_description);
             } else if (toolbarText.getText().toString().equals(getString(R.string.roman_baths))){
                 toolbar.setBackgroundResource(R.drawable.museums);
                 singleAddressView.setText(R.string.roman_baths_address);
@@ -200,14 +199,14 @@ public class SingleItemActivity extends AppCompatActivity {
                 itemDescription.setText(R.string.the_social_teahouse_description);
             } else if (toolbarText.getText().toString().equals(getString(R.string.rubik))){
                 toolbar.setBackgroundResource(R.drawable.museums);
-                singleAddressView.setText(R.string.rubic_address);
+                singleAddressView.setText(R.string.rubik_address);
                 imageView.setImageDrawable(ContextCompat.getDrawable(SingleItemActivity.this, R.drawable.rubic));
-                itemDescription.setText(R.string.rubic_description);
+                itemDescription.setText(R.string.rubik_description);
             } else if (toolbarText.getText().toString().equals(getString(R.string.dockers_club))){
                 toolbar.setBackgroundResource(R.drawable.museums);
-                singleAddressView.setText(R.string.dockers_dlub_address);
+                singleAddressView.setText(R.string.dockers_club_address);
                 imageView.setImageDrawable(ContextCompat.getDrawable(SingleItemActivity.this, R.drawable.dockers));
-                itemDescription.setText(R.string.dockers_dlub_description);
+                itemDescription.setText(R.string.dockers_club_description);
             }
         }
 

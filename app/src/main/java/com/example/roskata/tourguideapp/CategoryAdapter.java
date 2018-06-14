@@ -10,9 +10,7 @@ import android.widget.ImageView;
 class CategoryAdapter extends FragmentPagerAdapter{
 
     /** Context of the app */
-    private Context mContext;
-
-    private ImageView mToolbarImage;
+    private Context context;
 
     /**
      * Create a new {@link CategoryAdapter} object.
@@ -23,7 +21,7 @@ class CategoryAdapter extends FragmentPagerAdapter{
      */
     public CategoryAdapter(FragmentManager fm, Context context) {
         super(fm);
-        mContext = context;
+        this.context = context;
     }
 
     @Override
@@ -53,13 +51,13 @@ class CategoryAdapter extends FragmentPagerAdapter{
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0){
-            return mContext.getString(R.string.category_accommodation);
+            return context.getString(R.string.category_accommodation);
         } else if (position == 1){
-            return mContext.getString(R.string.category_culture);
+            return context.getString(R.string.category_culture);
         } else if (position == 2){
-            return mContext.getString(R.string.category_museums);
+            return context.getString(R.string.category_museums);
         } else {
-            return mContext.getString(R.string.category_fun);
+            return context.getString(R.string.category_fun);
         }
     }
 

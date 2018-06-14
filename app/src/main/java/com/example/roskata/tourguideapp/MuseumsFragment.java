@@ -19,8 +19,6 @@ import java.util.ArrayList;
  */
 public class MuseumsFragment extends Fragment {
 
-    private TextView headerText;
-
     public MuseumsFragment() {
         // Required empty public constructor
     }
@@ -41,7 +39,7 @@ public class MuseumsFragment extends Fragment {
 //        headerText = (TextView) getActivity().findViewById(R.id.toolbar_text);
 //        headerText.setText("Nature");
 
-        final ArrayList<Cite> cites = new ArrayList<Cite>();
+        final ArrayList<Cite> cites = new ArrayList<>();
         cites.add(new Cite(R.drawable.archeological, getString(R.string.archaeological_museum), getString(R.string.archaeological_museum_address)));
         cites.add(new Cite(R.drawable.ethnographical, getString(R.string.ethnographic_museum), getString(R.string.ethnographic_museum_address)));
         cites.add(new Cite(R.drawable.necropolis, getString(R.string.varna_necropolis), getString(R.string.varna_necropolis_address)));
@@ -64,7 +62,7 @@ public class MuseumsFragment extends Fragment {
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // activity_colors.xml layout file.
-        final ListView listView = (ListView) rootView.findViewById(R.id.list);
+        final ListView listView = rootView.findViewById(R.id.list);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

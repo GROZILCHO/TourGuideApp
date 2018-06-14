@@ -2,7 +2,6 @@ package com.example.roskata.tourguideapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 
 public class SplashScreen extends AppCompatActivity {
@@ -11,7 +10,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
 
-        Thread mThread = new Thread(){
+        Thread thread = new Thread(){
             @Override
             public void run() {
                 try {
@@ -25,6 +24,6 @@ public class SplashScreen extends AppCompatActivity {
             }
         };
 
-        mThread.start();
+        thread.start();
     }
 }
